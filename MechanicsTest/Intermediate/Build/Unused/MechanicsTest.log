@@ -1,0 +1,21 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\ARGP_Tests).
+  Parsing headers for MechanicsTestEditor
+    Running UnrealHeaderTool "E:\GitHub\ARGP_Tests\MechanicsTest\MechanicsTest.uproject" "E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\MechanicsTestEditor\Development\MechanicsTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MechanicsTestEditor in 4,1038307 seconds
+  Building MechanicsTestEditor...
+  Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 8 processes...
+    [1/10] HealthSystemComponent.cpp
+    [2/10] MechanicsTest.init.gen.cpp
+    [3/10] HealthSystemComponent.gen.cpp
+    [4/10] MechanicsTestGameMode.cpp
+    [5/10] MechanicsTestCharacter.gen.cpp
+    [6/10] ARPG_PlayerController.cpp
+    [7/10] MechanicsTestCharacter.cpp
+    [8/10] UE4Editor-MechanicsTest-0016.lib
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0016.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0016.exp
+    [9/10] UE4Editor-MechanicsTest-0016.dll
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0016.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0016.suppressed.exp
+    [10/10] MechanicsTestEditor.target
+  Total time in Parallel executor: 2,39 seconds
+  Total execution time: 7,06 seconds

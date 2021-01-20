@@ -54,4 +54,20 @@
       <Filter>Source\MechanicsTest</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MechanicsTest\ARPG_PlayerController.h">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MechanicsTest\HealthSystemComponent.h">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MechanicsTest\ARPG_PlayerController.cpp">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MechanicsTest\HealthSystemComponent.cpp">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
