@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MechanicsTest",
+			"Path": "E:\\GitHub\\ARGP_Tests\\MechanicsTest\\Source\\MechanicsTest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MechanicsTestEditor",
+			"Path": "E:\\GitHub\\ARGP_Tests\\MechanicsTest\\Source\\MechanicsTestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
