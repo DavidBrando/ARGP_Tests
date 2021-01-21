@@ -8,14 +8,35 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UHealthSystemComponent;
 #ifdef MECHANICSTEST_MechanicsTestCharacter_generated_h
 #error "MechanicsTestCharacter.generated.h already included, missing '#pragma once' in MechanicsTestCharacter.h"
 #endif
 #define MECHANICSTEST_MechanicsTestCharacter_generated_h
 
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_SPARSE_DATA
-#define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS
-#define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHealthComponent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UHealthSystemComponent**)Z_Param__Result=P_THIS->GetHealthComponent(); \
+		P_NATIVE_END; \
+	}
+
+
+#define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHealthComponent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UHealthSystemComponent**)Z_Param__Result=P_THIS->GetHealthComponent(); \
+		P_NATIVE_END; \
+	}
+
+
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMechanicsTestCharacter(); \

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 	MECHANICSTEST_API UClass* Z_Construct_UClass_AAndrianCharacter();
 	MECHANICSTEST_API UClass* Z_Construct_UClass_AMechanicsTestCharacter();
 	UPackage* Z_Construct_UPackage__Script_MechanicsTest();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -35,6 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VFX_Buff_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VFX_Buff;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimMontage_MetaData[];
 #endif
@@ -71,12 +76,22 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "AndrianCharacter.h" },
 		{ "ModuleRelativePath", "AndrianCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "VFX" },
+		{ "Comment", "//VFX\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "AndrianCharacter.h" },
+		{ "ToolTip", "VFX" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff = { "VFX_Buff", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAndrianCharacter, VFX_Buff), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AnimMontage_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -137,6 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility1 = { "isCastingAbility1", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAndrianCharacter), &Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility1_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility1_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAndrianCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AnimMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_SpawnProjectile,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_bulletType,
@@ -171,7 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAndrianCharacter, 2413623766);
+	IMPLEMENT_CLASS(AAndrianCharacter, 3358774931);
 	template<> MECHANICSTEST_API UClass* StaticClass<AAndrianCharacter>()
 	{
 		return AAndrianCharacter::StaticClass();

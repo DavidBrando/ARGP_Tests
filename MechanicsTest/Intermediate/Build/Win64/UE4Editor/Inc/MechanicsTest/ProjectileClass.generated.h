@@ -99,6 +99,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectileClass); \
 	FORCEINLINE static uint32 __PPO__bullet() { return STRUCT_OFFSET(AProjectileClass, bullet); } \
 	FORCEINLINE static uint32 __PPO__projectileMovement() { return STRUCT_OFFSET(AProjectileClass, projectileMovement); } \
 	FORCEINLINE static uint32 __PPO__explosion() { return STRUCT_OFFSET(AProjectileClass, explosion); } \
+	FORCEINLINE static uint32 __PPO__DefaultDamage() { return STRUCT_OFFSET(AProjectileClass, DefaultDamage); } \
 	FORCEINLINE static uint32 __PPO__damage() { return STRUCT_OFFSET(AProjectileClass, damage); }
 
 

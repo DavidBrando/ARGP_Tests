@@ -10,12 +10,24 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/SceneComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 
 
 AAndrianCharacter::AAndrianCharacter() {
 
 	SpawnProjectile = CreateDefaultSubobject<USceneComponent>(TEXT("SpawnProjectile"));
 	SpawnProjectile->SetupAttachment(Cast<USceneComponent>(GetMesh()));
+
+	//Cool VFX effects for when you get the buff
+	VFX_Buff = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Buff Effects"));
+	VFX_Buff->SetupAttachment(RootComponent);
+	VFX_Buff->Deactivate();
+}
+
+void AAndrianCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	VFX_Buff->Deactivate();
 }
 
 void AAndrianCharacter::SpecialAbility1()
@@ -56,7 +68,9 @@ void AAndrianCharacter::SpecialAbility1()
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.Owner = this;
 
-		GetWorld()->SpawnActor<AProjectileClass>(bulletType, SpawnInfo, SpawnParams);
+		AProjectileClass* projectile = GetWorld()->SpawnActor<AProjectileClass>(bulletType, SpawnInfo, SpawnParams);
+
+		//if(isbuffing)
 
 	}
 

@@ -49,5 +49,4 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		bool GetAlive() { return alive; }
 
-
 };

@@ -265,7 +265,9 @@
     <NMakeOutput>..\..\Binaries\Win64\MechanicsTest-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\MechanicsTest\AreaClass.cpp" />
     <ClCompile Include="..\..\Source\MechanicsTest\ProjectileClass.cpp" />
+    <ClInclude Include="..\..\Source\MechanicsTest\AreaClass.h" />
     <ClInclude Include="..\..\Source\MechanicsTest\ProjectileClass.h" />
     <None Include="..\..\MechanicsTest.uproject" />
     <None Include="..\..\Source\MechanicsTest.Target.cs" />

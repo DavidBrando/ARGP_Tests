@@ -109,7 +109,10 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-
+	
+	//Get Health component for make changes
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	UHealthSystemComponent* GetHealthComponent() { return PlayerHealthSystem;  }
 
 private:
 

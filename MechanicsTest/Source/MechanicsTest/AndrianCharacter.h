@@ -6,9 +6,8 @@
 #include "MechanicsTestCharacter.h"
 #include "AndrianCharacter.generated.h"
 
-/**
- * 
- */
+class UParticleSystemComponent;
+
 UCLASS()
 class MECHANICSTEST_API AAndrianCharacter : public AMechanicsTestCharacter
 {
@@ -17,6 +16,8 @@ class MECHANICSTEST_API AAndrianCharacter : public AMechanicsTestCharacter
 public:
 
 	AAndrianCharacter();
+
+	virtual void BeginPlay() override;
 
 public:
 
@@ -38,19 +39,7 @@ public:
 	////Makes player invisible
 	virtual void SpecialAbility6() override;
 
-
-	//virtual void ShootFireMagic();
-
-	//virtual void SpawnAreaBuff();
-
-	//virtual void ShootAcidOrb();
-
-	//virtual void ActivateHomingProjectile();
-
-	//virtual void TeleportPlayer();
-
-	//virtual void CastInvisibility();
-
+	void BuffControl();
 
 protected:
 
@@ -63,6 +52,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	bool isCastingAbility2 = false;
 
+	//need to created others timers and bools for abilites
 protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
@@ -74,6 +64,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	UAnimMontage* AnimMontage;
+
+	//VFX
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = VFX, meta = (AllowPrivateAccess = "true"))
+	UParticleSystemComponent* VFX_Buff;
 
 
 private:

@@ -38,7 +38,8 @@ AProjectileClass::AProjectileClass()
 	bullet->SetupAttachment(root);
 
 	//Defualt damage value
-	damage = 25.0f;
+	DefaultDamage = 25.0f;
+	damage = DefaultDamage;
 }
 
 // Called when the game starts or when spawned
@@ -63,12 +64,27 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	if (OtherActor != nullptr && OtherActor != GetOwner()) {
 
 		if (explosion) {
-			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), explosion, SweepResult.Location, FRotator(0.0f));
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), explosion, OtherActor->GetActorLocation(), FRotator(0.0f));
 		}
+	
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, SweepResult.Location.ToString());
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, OtherActor->GetName());
+		//Sending damage using TakeDamage event
+		TSubclassOf<UDamageType> const ValidDamageTypeClass;
+		FDamageEvent DamageEvent(ValidDamageTypeClass);
+
+		OtherActor->TakeDamage(damage, DamageEvent, nullptr, this);
+		
 
 		Destroy();
 	}
+}
+
+//Applying % of damage buff when character will be on hte properly area
+//Can receive -% for applying again normal damage
+void AProjectileClass::SetDamage(float FactorizedDamage)
+{
+	float ResultBuff = damage * FactorizedDamage;
+	damage += ResultBuff;
 }
 

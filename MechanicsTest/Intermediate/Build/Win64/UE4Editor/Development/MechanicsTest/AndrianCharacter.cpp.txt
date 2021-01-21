@@ -33,3 +33,9 @@ E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMo
 E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
 E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
 E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h

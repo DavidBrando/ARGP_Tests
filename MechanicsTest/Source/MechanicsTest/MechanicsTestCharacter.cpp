@@ -53,6 +53,8 @@ AMechanicsTestCharacter::AMechanicsTestCharacter()
 
 	PlayerHealthSystem = CreateDefaultSubobject<UHealthSystemComponent>(TEXT("InfoPlayer"));
 	this->AddOwnedComponent(PlayerHealthSystem);
+
+
 }
 
 
@@ -61,6 +63,7 @@ void AMechanicsTestCharacter::BeginPlay()
 	Super::BeginPlay();
 	//GetWorldTimerManager().SetTimer(test, this, &AMechanicsTestCharacter::ResetTimer, 2.0f, false);
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, GetController()->GetName());
+	//PlayerHealthSystem->SettingLife(100.0f);
 
 }
 
@@ -99,35 +102,6 @@ void AMechanicsTestCharacter::SpecialAbility6()
 
 }
 
-
-//////////////////////////////////////////////////////////////////////////
-// Input
-
-
-//void AMechanicsTestCharacter::ResetTimer()
-//{
-//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Hello Timer"));
-//}
-
-//void AMechanicsTestCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
-//{
-//	// Set up gameplay key bindings
-//	check(PlayerInputComponent);
-//	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-//	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-//
-//	PlayerInputComponent->BindAxis("MoveForward", this, &AMechanicsTestCharacter::MoveForward);
-//	PlayerInputComponent->BindAxis("MoveRight", this, &AMechanicsTestCharacter::MoveRight);
-//
-//	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-//	// "turn" handles devices that provide an absolute delta, such as a mouse.
-//	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-//	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-//	PlayerInputComponent->BindAxis("TurnRate", this, &AMechanicsTestCharacter::TurnAtRate);
-//	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-//	PlayerInputComponent->BindAxis("LookUpRate", this, &AMechanicsTestCharacter::LookUpAtRate);
-//
-//}
 
 
 void AMechanicsTestCharacter::TurnAtRate(float Rate)

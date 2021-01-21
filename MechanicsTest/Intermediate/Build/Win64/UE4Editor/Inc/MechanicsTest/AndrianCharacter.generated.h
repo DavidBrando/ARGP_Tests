@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MECHANICSTEST_AndrianCharacter_generated_h
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_SPARSE_DATA
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_RPC_WRAPPERS
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_SPARSE_DATA
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_RPC_WRAPPERS
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAndrianCharacter(); \
 	friend struct Z_Construct_UClass_AAndrianCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAndrianCharacter)
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_INCLASS \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAAndrianCharacter(); \
 	friend struct Z_Construct_UClass_AAndrianCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAndrianCharacter)
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAndrianCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAndrianCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAndrianCharacter(AAndrianCharacter&&); \
@@ -58,36 +58,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAndrianCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAndrianCharacter)
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__isCastingAbility1() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility1); } \
 	FORCEINLINE static uint32 __PPO__Abality1Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality1Coldown); } \
 	FORCEINLINE static uint32 __PPO__isCastingAbility2() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility2); } \
 	FORCEINLINE static uint32 __PPO__bulletType() { return STRUCT_OFFSET(AAndrianCharacter, bulletType); } \
 	FORCEINLINE static uint32 __PPO__SpawnProjectile() { return STRUCT_OFFSET(AAndrianCharacter, SpawnProjectile); } \
-	FORCEINLINE static uint32 __PPO__AnimMontage() { return STRUCT_OFFSET(AAndrianCharacter, AnimMontage); }
+	FORCEINLINE static uint32 __PPO__AnimMontage() { return STRUCT_OFFSET(AAndrianCharacter, AnimMontage); } \
+	FORCEINLINE static uint32 __PPO__VFX_Buff() { return STRUCT_OFFSET(AAndrianCharacter, VFX_Buff); }
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_12_PROLOG
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_GENERATED_BODY_LEGACY \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_11_PROLOG
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_SPARSE_DATA \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_RPC_WRAPPERS \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_INCLASS \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_STANDARD_CONSTRUCTORS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_SPARSE_DATA \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_RPC_WRAPPERS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_INCLASS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_GENERATED_BODY \
+#define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_SPARSE_DATA \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_SPARSE_DATA \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -49,7 +49,10 @@ protected:
 
 	//Damage of the projectile
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
-		float damage;
+	float DefaultDamage;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
+	float damage;
 
 public:	
 	// Called every frame
@@ -58,6 +61,6 @@ public:
 	UFUNCTION()
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	void SetDamage(float d) { damage = d; }; //seeting a new damage if we want more powerful shoots
+	void SetDamage(float FactorizedDamage); //seeting a new damage if we want more powerful shoots
 
 };
