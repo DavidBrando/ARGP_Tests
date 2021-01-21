@@ -265,6 +265,8 @@
     <NMakeOutput>..\..\Binaries\Win64\MechanicsTest-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\MechanicsTest\ProjectileClass.cpp" />
+    <ClInclude Include="..\..\Source\MechanicsTest\ProjectileClass.h" />
     <None Include="..\..\MechanicsTest.uproject" />
     <None Include="..\..\Source\MechanicsTest.Target.cs" />
     <None Include="..\..\Source\MechanicsTestEditor.Target.cs" />
@@ -274,9 +276,11 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\MechanicsTest\MechanicsTest.Build.cs" />
+    <ClCompile Include="..\..\Source\MechanicsTest\AndrianCharacter.cpp" />
     <ClCompile Include="..\..\Source\MechanicsTest\ARPG_PlayerController.cpp" />
     <ClCompile Include="..\..\Source\MechanicsTest\HealthSystemComponent.cpp" />
     <ClCompile Include="..\..\Source\MechanicsTest\MechanicsTest.cpp" />
+    <ClInclude Include="..\..\Source\MechanicsTest\AndrianCharacter.h" />
     <ClInclude Include="..\..\Source\MechanicsTest\ARPG_PlayerController.h" />
     <ClInclude Include="..\..\Source\MechanicsTest\HealthSystemComponent.h" />
     <ClInclude Include="..\..\Source\MechanicsTest\MechanicsTest.h" />

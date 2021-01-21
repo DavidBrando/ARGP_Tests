@@ -61,6 +61,7 @@ protected:
 	void MyPawnControllerPitchInput(float value);
 
 	//Call the functions for player's abilities
+	//Depending of what kind of player you have controller, it will be different
 	void MyPawnSpecialAbility1();
 	void MyPawnSpecialAbility2();
 	void MyPawnSpecialAbility3();

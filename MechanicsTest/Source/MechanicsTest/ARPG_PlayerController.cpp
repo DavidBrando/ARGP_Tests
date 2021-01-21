@@ -40,6 +40,15 @@ void AARPG_PlayerController::SetupInputComponent()
 	InputComponent->BindAction("Jump", IE_Pressed, this, &AARPG_PlayerController::MyPawnStartJumping);
 	InputComponent->BindAction("Jump", IE_Released, this, &AARPG_PlayerController::MyPawnEndJumping);
 
+	InputComponent->BindAction("MainAbility", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility1);
+
+	InputComponent->BindAction("Ability2", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility2);
+
+	InputComponent->BindAction("Ability3", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility3);
+
+	InputComponent->BindAction("Ability4", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility4);
+
+
 	InputComponent->BindAxis("MoveForward", this, &AARPG_PlayerController::MyPawnMoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AARPG_PlayerController::MyPawnMoveRight);
 
@@ -119,3 +128,39 @@ void AARPG_PlayerController::MyPawnControllerPitchInput(float value)
 
 	}
 }
+
+
+/// <Ability inputs>
+
+//Main ability
+void AARPG_PlayerController::MyPawnSpecialAbility1()
+{
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility1();
+	}
+}
+
+void AARPG_PlayerController::MyPawnSpecialAbility2()
+{
+}
+
+void AARPG_PlayerController::MyPawnSpecialAbility3()
+{
+}
+
+void AARPG_PlayerController::MyPawnSpecialAbility4()
+{
+}
+
+void AARPG_PlayerController::MyPawnSpecialAbility5()
+{
+}
+
+void AARPG_PlayerController::MyPawnSpecialAbility6()
+{
+}
+
+
+
+/// </Ability inputs>
+

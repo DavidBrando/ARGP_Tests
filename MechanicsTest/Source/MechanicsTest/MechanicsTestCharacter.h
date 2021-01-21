@@ -12,7 +12,7 @@ UCLASS(config=Game)
 class AMechanicsTestCharacter : public ACharacter
 {
 	GENERATED_BODY()
-
+protected:
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
@@ -101,7 +101,8 @@ public:
 
 protected:
 
-	UHealthSystemComponent* PlayerHealthSystem;
+	//Component with heal system logic
+	UHealthSystemComponent* PlayerHealthSystem; 
 
 public:
 	/** Returns CameraBoom subobject **/

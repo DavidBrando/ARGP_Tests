@@ -61,12 +61,24 @@
     <ClInclude Include="..\..\Source\MechanicsTest\HealthSystemComponent.h">
       <Filter>Source\MechanicsTest</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MechanicsTest\AndrianCharacter.h">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MechanicsTest\ProjectileClass.h">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MechanicsTest\ARPG_PlayerController.cpp">
       <Filter>Source\MechanicsTest</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MechanicsTest\HealthSystemComponent.cpp">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MechanicsTest\AndrianCharacter.cpp">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MechanicsTest\ProjectileClass.cpp">
       <Filter>Source\MechanicsTest</Filter>
     </ClCompile>
   </ItemGroup>
