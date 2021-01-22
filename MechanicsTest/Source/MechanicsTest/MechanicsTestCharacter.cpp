@@ -63,7 +63,6 @@ void AMechanicsTestCharacter::BeginPlay()
 	Super::BeginPlay();
 	//GetWorldTimerManager().SetTimer(test, this, &AMechanicsTestCharacter::ResetTimer, 2.0f, false);
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, GetController()->GetName());
-	//PlayerHealthSystem->SettingLife(100.0f);
 
 }
 

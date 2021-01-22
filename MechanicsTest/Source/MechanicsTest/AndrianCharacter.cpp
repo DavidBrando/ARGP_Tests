@@ -12,7 +12,7 @@
 #include "Components/SceneComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "AreaClass.h"
-
+#include "Components/SkeletalMeshComponent.h"
 
 AAndrianCharacter::AAndrianCharacter() {
 
@@ -115,14 +115,65 @@ void AAndrianCharacter::SpecialAbility3()
 
 void AAndrianCharacter::SpecialAbility4()
 {
+	
 }
 
+//TP ability
 void AAndrianCharacter::SpecialAbility5()
 {
+	if (isCastingAbility5 == false) {
+
+		isCastingAbility5 = true;
+		//Getting vectors for math caltulations
+		const FVector ForwardCamVector = FollowCamera->GetForwardVector();
+		const float Distance = 1200.0f;
+		FVector destination;
+
+		//Preparing location info from impacting
+		FHitResult OutHit;
+		FVector start = FollowCamera->GetComponentLocation();
+		FVector end = (ForwardCamVector * Distance) + start;
+		FCollisionQueryParams ColisionParams;
+
+		//Tracing raycasting
+		bool isHitting = GetWorld()->LineTraceSingleByChannel(OutHit, start, end, ECC_Visibility, ColisionParams);
+
+		if (isHitting) {
+
+			destination = OutHit.ImpactPoint;
+		}
+
+		else {
+			destination = end;
+		}
+
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, destination.ToString());
+
+
+		TeleportTo(destination, this->GetActorRotation());
+
+		//Reset ability coldown
+		GetWorldTimerManager().SetTimer(TimerHandleAbility5, this, &AAndrianCharacter::ResetTimerForAbility5, Abality5Coldown, false);
+	}
 }
 
+//Invisible ability
 void AAndrianCharacter::SpecialAbility6()
 {
+	if (isCastingAbility6 == false) {
+
+		isCastingAbility6 = true;
+
+		//assigning material for create the ilusion of invisibility
+		if (invisibleMaterial) {
+
+			GetMesh()->SetMaterial(0, Cast<UMaterialInterface>(invisibleMaterial));
+
+		}
+
+		//Reset ability coldown
+		GetWorldTimerManager().SetTimer(TimerHandleAbility6, this, &AAndrianCharacter::ResetTimerForAbility6, Abality6Coldown, false);
+	}
 }
 
 void AAndrianCharacter::BuffControl(int buffType, float factorizedBuff)
@@ -189,6 +240,23 @@ void AAndrianCharacter::ResetTimerForAbility2()
 {
 	isCastingAbility2 = false;
 	GetWorldTimerManager().ClearTimer(TimerHandleAbility2);
+}
+
+void AAndrianCharacter::ResetTimerForAbility5()
+{
+	isCastingAbility5 = false;
+	GetWorldTimerManager().ClearTimer(TimerHandleAbility5);
+}
+
+void AAndrianCharacter::ResetTimerForAbility6()
+{
+	//putting back default material
+	if (DefaultMaterial) {
+		GetMesh()->SetMaterial(0, Cast<UMaterialInterface>(DefaultMaterial));
+	}
+
+	isCastingAbility6 = false;
+	GetWorldTimerManager().ClearTimer(TimerHandleAbility6);
 }
 
 //Method to desig how character will move when he is shooting or not

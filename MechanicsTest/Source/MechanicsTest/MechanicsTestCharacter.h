@@ -81,23 +81,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 	virtual void BuffControl(int buffType, float factorizedBuff);
 
-	////Create a magic fireball to shoot it
-	//virtual void ShootFireMagic();
-
-	////Spawn an area where each player receive a damage buff
-	//virtual void SpawnAreaBuff();
-
-	////Spawn an orb than can perform a instant dmg or per tick
-	//virtual void ShootAcidOrb();
-
-	////Activate for some time homing projectiles
-	//virtual void ActivateHomingProjectile();
-
-	////Teleports the player to a location where he is locking
-	//virtual void TeleportPlayer();
-
-	////Makes player invisible
-	//virtual void CastInvisibility();
 
 //Variables
 

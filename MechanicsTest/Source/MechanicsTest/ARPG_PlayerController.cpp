@@ -48,6 +48,10 @@ void AARPG_PlayerController::SetupInputComponent()
 
 	InputComponent->BindAction("Ability4", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility4);
 
+	InputComponent->BindAction("Ability5", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility5);
+
+	InputComponent->BindAction("Ability6", IE_Pressed, this, &AARPG_PlayerController::MyPawnSpecialAbility6);
+
 
 	InputComponent->BindAxis("MoveForward", this, &AARPG_PlayerController::MyPawnMoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AARPG_PlayerController::MyPawnMoveRight);
@@ -158,13 +162,17 @@ void AARPG_PlayerController::MyPawnSpecialAbility4()
 
 void AARPG_PlayerController::MyPawnSpecialAbility5()
 {
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility5();
+	}
 }
 
 void AARPG_PlayerController::MyPawnSpecialAbility6()
 {
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility6();
+	}
 }
-
-
 
 /// </Ability inputs>
 

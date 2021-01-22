@@ -7,6 +7,7 @@
 #include "AndrianCharacter.generated.h"
 
 class UParticleSystemComponent;
+class UMaterial;
 
 UCLASS()
 class MECHANICSTEST_API AAndrianCharacter : public AMechanicsTestCharacter
@@ -56,10 +57,23 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	float Abality2Coldown = 20.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	bool isCastingAbility5 = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	float Abality5Coldown = 2.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	bool isCastingAbility6 = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	float Abality6Coldown = 10.0f;
+
 
 	//need to created others timers and bools for abilites
 protected:
 
+	//type of projectile for shooting main ability
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AProjectileClass> bulletType;
 
@@ -71,7 +85,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	USceneComponent* SpawnArea;
 
-
+	//Anim montage for shooting fire balls
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	UAnimMontage* AnimMontage;
 
@@ -79,8 +93,17 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = VFX, meta = (AllowPrivateAccess = "true"))
 	UParticleSystemComponent* VFX_Buff;
 
+	//Area buff for spawning.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AAreaClass> AreaBuff;
+
+	//Material for make character invisible
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX, meta = (AllowPrivateAccess = "true"))
+	UMaterial *invisibleMaterial;
+
+	//Default material
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX, meta = (AllowPrivateAccess = "true"))
+	UMaterial* DefaultMaterial;
 
 private:
 
@@ -92,6 +115,15 @@ private:
 	void ResetTimerForAbility2();
 	FTimerHandle TimerHandleAbility2;
 
+	//Function for reset time handle for ability 5, tp ability
+	void ResetTimerForAbility5();
+	FTimerHandle TimerHandleAbility5;
+
+	//Function for reset time handle for ability 6, invisibility ability
+	void ResetTimerForAbility6();
+	FTimerHandle TimerHandleAbility6;
+
+	//Special function for change character movement
 	void ChangeMoviementCharacter(bool isUsingControllerRotationYaw, bool isUsingOrientRotationToMovement);
 
 	FTransform CalculateTransform(FVector A, FVector B, bool bImpact);
