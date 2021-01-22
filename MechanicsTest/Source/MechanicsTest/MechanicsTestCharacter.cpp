@@ -102,6 +102,11 @@ void AMechanicsTestCharacter::SpecialAbility6()
 
 }
 
+void AMechanicsTestCharacter::BuffControl(int buffType, float factorizedBuff)
+{
+	//do nothing
+}
+
 
 
 void AMechanicsTestCharacter::TurnAtRate(float Rate)

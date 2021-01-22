@@ -39,3 +39,5 @@ E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Partic
 E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
 E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\AreaClass.h
+E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\AreaClass.generated.h

@@ -62,7 +62,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAreaClass); \
 	FORCEINLINE static uint32 __PPO__capsule() { return STRUCT_OFFSET(AAreaClass, capsule); } \
 	FORCEINLINE static uint32 __PPO__root() { return STRUCT_OFFSET(AAreaClass, root); } \
 	FORCEINLINE static uint32 __PPO__VFX() { return STRUCT_OFFSET(AAreaClass, VFX); } \
-	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AAreaClass, Mesh); }
+	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AAreaClass, Mesh); } \
+	FORCEINLINE static uint32 __PPO__isDoingDamage() { return STRUCT_OFFSET(AAreaClass, isDoingDamage); } \
+	FORCEINLINE static uint32 __PPO__areaValue() { return STRUCT_OFFSET(AAreaClass, areaValue); } \
+	FORCEINLINE static uint32 __PPO__areaLife() { return STRUCT_OFFSET(AAreaClass, areaLife); }
 
 
 #define MechanicsTest_Source_MechanicsTest_AreaClass_h_16_PROLOG

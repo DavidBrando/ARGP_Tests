@@ -42,6 +42,18 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AreaComp, meta = (AllowPrivateAccess = "true"))
 		UStaticMeshComponent* Mesh;
 
+	//Bool for know if this area apply damage or not
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))
+	bool isDoingDamage;
+
+	//value for damage than apply this area or buff, could be negative for buffs
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))
+	float areaValue;
+
+	//value that indicates how many time live this object
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))
+	float areaLife;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

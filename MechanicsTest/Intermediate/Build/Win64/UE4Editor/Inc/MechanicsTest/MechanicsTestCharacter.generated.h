@@ -23,6 +23,16 @@ class UHealthSystemComponent;
 		P_NATIVE_BEGIN; \
 		*(UHealthSystemComponent**)Z_Param__Result=P_THIS->GetHealthComponent(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBuffControl) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_buffType); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_factorizedBuff); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BuffControl(Z_Param_buffType,Z_Param_factorizedBuff); \
+		P_NATIVE_END; \
 	}
 
 
@@ -33,6 +43,16 @@ class UHealthSystemComponent;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(UHealthSystemComponent**)Z_Param__Result=P_THIS->GetHealthComponent(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBuffControl) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_buffType); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_factorizedBuff); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BuffControl(Z_Param_buffType,Z_Param_factorizedBuff); \
 		P_NATIVE_END; \
 	}
 

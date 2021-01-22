@@ -36,6 +36,19 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_areaLife_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_areaLife;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_areaValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_areaValue;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isDoingDamage_MetaData[];
+#endif
+		static void NewProp_isDoingDamage_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDoingDamage;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
@@ -65,6 +78,40 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 		{ "ModuleRelativePath", "AreaClass.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAreaClass_Statics::NewProp_areaLife_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AreaInfo" },
+		{ "Comment", "//value that indicates how many time live this object\n" },
+		{ "ModuleRelativePath", "AreaClass.h" },
+		{ "ToolTip", "value that indicates how many time live this object" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAreaClass_Statics::NewProp_areaLife = { "areaLife", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAreaClass, areaLife), METADATA_PARAMS(Z_Construct_UClass_AAreaClass_Statics::NewProp_areaLife_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAreaClass_Statics::NewProp_areaLife_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAreaClass_Statics::NewProp_areaValue_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AreaInfo" },
+		{ "Comment", "//value for damage than apply this area or buff, could be negative for buffs\n" },
+		{ "ModuleRelativePath", "AreaClass.h" },
+		{ "ToolTip", "value for damage than apply this area or buff, could be negative for buffs" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAreaClass_Statics::NewProp_areaValue = { "areaValue", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAreaClass, areaValue), METADATA_PARAMS(Z_Construct_UClass_AAreaClass_Statics::NewProp_areaValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAreaClass_Statics::NewProp_areaValue_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AreaInfo" },
+		{ "Comment", "//Bool for know if this area apply damage or not\n" },
+		{ "ModuleRelativePath", "AreaClass.h" },
+		{ "ToolTip", "Bool for know if this area apply damage or not" },
+	};
+#endif
+	void Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage_SetBit(void* Obj)
+	{
+		((AAreaClass*)Obj)->isDoingDamage = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage = { "isDoingDamage", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAreaClass), &Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAreaClass_Statics::NewProp_Mesh_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -110,6 +157,9 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAreaClass_Statics::NewProp_capsule = { "capsule", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAreaClass, capsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAreaClass_Statics::NewProp_capsule_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAreaClass_Statics::NewProp_capsule_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAreaClass_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_areaLife,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_areaValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_isDoingDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_VFX,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAreaClass_Statics::NewProp_root,
@@ -142,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAreaClass, 1350112114);
+	IMPLEMENT_CLASS(AAreaClass, 4249934349);
 	template<> MECHANICSTEST_API UClass* StaticClass<AAreaClass>()
 	{
 		return AAreaClass::StaticClass();

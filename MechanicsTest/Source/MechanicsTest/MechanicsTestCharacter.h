@@ -78,6 +78,8 @@ public:
 	virtual void SpecialAbility5();
 	virtual void SpecialAbility6();
 
+	UFUNCTION(BlueprintCallable)
+	virtual void BuffControl(int buffType, float factorizedBuff);
 
 	////Create a magic fireball to shoot it
 	//virtual void ShootFireMagic();
@@ -102,7 +104,10 @@ public:
 protected:
 
 	//Component with heal system logic
-	UHealthSystemComponent* PlayerHealthSystem; 
+	UHealthSystemComponent* PlayerHealthSystem;
+	float Ability1_Damage = 25.0f;
+	float DefaultAbility1_Damage = 25.0f;
+
 
 public:
 	/** Returns CameraBoom subobject **/

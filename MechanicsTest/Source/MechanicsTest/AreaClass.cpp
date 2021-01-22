@@ -34,8 +34,6 @@ void AAreaClass::BeginPlay()
 {
 	Super::BeginPlay();
 
-	VFX->Deactivate();
-	
 }
 
 // Called every frame

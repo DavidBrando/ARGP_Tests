@@ -62,10 +62,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAndrianCharacter); \
 	FORCEINLINE static uint32 __PPO__isCastingAbility1() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility1); } \
 	FORCEINLINE static uint32 __PPO__Abality1Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality1Coldown); } \
 	FORCEINLINE static uint32 __PPO__isCastingAbility2() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility2); } \
+	FORCEINLINE static uint32 __PPO__Abality2Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality2Coldown); } \
 	FORCEINLINE static uint32 __PPO__bulletType() { return STRUCT_OFFSET(AAndrianCharacter, bulletType); } \
 	FORCEINLINE static uint32 __PPO__SpawnProjectile() { return STRUCT_OFFSET(AAndrianCharacter, SpawnProjectile); } \
+	FORCEINLINE static uint32 __PPO__SpawnArea() { return STRUCT_OFFSET(AAndrianCharacter, SpawnArea); } \
 	FORCEINLINE static uint32 __PPO__AnimMontage() { return STRUCT_OFFSET(AAndrianCharacter, AnimMontage); } \
-	FORCEINLINE static uint32 __PPO__VFX_Buff() { return STRUCT_OFFSET(AAndrianCharacter, VFX_Buff); }
+	FORCEINLINE static uint32 __PPO__VFX_Buff() { return STRUCT_OFFSET(AAndrianCharacter, VFX_Buff); } \
+	FORCEINLINE static uint32 __PPO__AreaBuff() { return STRUCT_OFFSET(AAndrianCharacter, AreaBuff); }
 
 
 #define MechanicsTest_Source_MechanicsTest_AndrianCharacter_h_11_PROLOG

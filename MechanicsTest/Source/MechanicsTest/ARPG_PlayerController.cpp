@@ -140,8 +140,12 @@ void AARPG_PlayerController::MyPawnSpecialAbility1()
 	}
 }
 
+//Ability 2
 void AARPG_PlayerController::MyPawnSpecialAbility2()
 {
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility2();
+	}
 }
 
 void AARPG_PlayerController::MyPawnSpecialAbility3()

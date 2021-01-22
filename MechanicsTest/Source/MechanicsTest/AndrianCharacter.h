@@ -39,7 +39,8 @@ public:
 	////Makes player invisible
 	virtual void SpecialAbility6() override;
 
-	void BuffControl();
+	virtual void BuffControl(int buffType, float factorizedBuff) override;
+
 
 protected:
 
@@ -52,15 +53,24 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	bool isCastingAbility2 = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	float Abality2Coldown = 8.0f;
+
+
 	//need to created others timers and bools for abilites
 protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AProjectileClass> bulletType;
 
-	//root component of the projectile
+	// component of the projectile to spawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	USceneComponent* SpawnProjectile;
+
+	// component of the area to spawn
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
+	USceneComponent* SpawnArea;
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	UAnimMontage* AnimMontage;
@@ -69,12 +79,18 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = VFX, meta = (AllowPrivateAccess = "true"))
 	UParticleSystemComponent* VFX_Buff;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AAreaClass> AreaBuff;
 
 private:
 
-	//Function for reset time handle for ability 1
+	//Function for reset time handle for ability 1, fire ball
 	void ResetTimerForAbility1();
 	FTimerHandle TimerHandleAbility1;
+
+	//Function for reset time handle for ability 2, area buff
+	void ResetTimerForAbility2();
+	FTimerHandle TimerHandleAbility2;
 
 	void ChangeMoviementCharacter(bool isUsingControllerRotationYaw, bool isUsingOrientRotationToMovement);
 

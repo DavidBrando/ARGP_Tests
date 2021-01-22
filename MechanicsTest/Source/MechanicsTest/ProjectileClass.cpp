@@ -37,9 +37,6 @@ AProjectileClass::AProjectileClass()
 	bullet = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Bullet"));
 	bullet->SetupAttachment(root);
 
-	//Defualt damage value
-	DefaultDamage = 25.0f;
-	damage = DefaultDamage;
 }
 
 // Called when the game starts or when spawned
@@ -80,11 +77,9 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	}
 }
 
-//Applying % of damage buff when character will be on hte properly area
-//Can receive -% for applying again normal damage
-void AProjectileClass::SetDamage(float FactorizedDamage)
+
+void AProjectileClass::SetDamage(float nDamage)
 {
-	float ResultBuff = damage * FactorizedDamage;
-	damage += ResultBuff;
+	damage = nDamage;
 }
 

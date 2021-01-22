@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 	MECHANICSTEST_API UClass* Z_Construct_UClass_AMechanicsTestCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_MechanicsTest();
+	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl();
 	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_GetHealthComponent();
 	MECHANICSTEST_API UClass* Z_Construct_UClass_UHealthSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -26,9 +27,46 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 	{
 		UClass* Class = AMechanicsTestCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "BuffControl", &AMechanicsTestCharacter::execBuffControl },
 			{ "GetHealthComponent", &AMechanicsTestCharacter::execGetHealthComponent },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics
+	{
+		struct MechanicsTestCharacter_eventBuffControl_Parms
+		{
+			int32 buffType;
+			float factorizedBuff;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_factorizedBuff;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_buffType;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::NewProp_factorizedBuff = { "factorizedBuff", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MechanicsTestCharacter_eventBuffControl_Parms, factorizedBuff), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::NewProp_buffType = { "buffType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MechanicsTestCharacter_eventBuffControl_Parms, buffType), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::NewProp_factorizedBuff,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::NewProp_buffType,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MechanicsTestCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMechanicsTestCharacter, nullptr, "BuffControl", nullptr, nullptr, sizeof(MechanicsTestCharacter_eventBuffControl_Parms), Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AMechanicsTestCharacter_GetHealthComponent_Statics
 	{
@@ -108,6 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MechanicsTest,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMechanicsTestCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl, "BuffControl" }, // 4192175502
 		{ &Z_Construct_UFunction_AMechanicsTestCharacter_GetHealthComponent, "GetHealthComponent" }, // 3586352488
 	};
 #if WITH_METADATA
@@ -190,7 +229,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMechanicsTestCharacter, 3593708201);
+	IMPLEMENT_CLASS(AMechanicsTestCharacter, 886257412);
 	template<> MECHANICSTEST_API UClass* StaticClass<AMechanicsTestCharacter>()
 	{
 		return AMechanicsTestCharacter::StaticClass();
