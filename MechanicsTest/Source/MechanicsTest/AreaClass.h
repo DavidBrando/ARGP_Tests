@@ -44,7 +44,11 @@ protected:
 
 	//Bool for know if this area apply damage or not
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))
-	bool isDoingDamage;
+	bool isDoingDamage = false;
+
+	//Bool for know if this area makes events per tick
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))
+	bool isApplyingTick = false;
 
 	//value for damage than apply this area or buff, could be negative for buffs
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AreaInfo, meta = (AllowPrivateAccess = "true"))

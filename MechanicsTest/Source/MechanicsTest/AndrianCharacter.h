@@ -54,7 +54,7 @@ protected:
 	bool isCastingAbility2 = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
-	float Abality2Coldown = 8.0f;
+	float Abality2Coldown = 20.0f;
 
 
 	//need to created others timers and bools for abilites

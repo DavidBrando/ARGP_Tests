@@ -64,6 +64,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAreaClass); \
 	FORCEINLINE static uint32 __PPO__VFX() { return STRUCT_OFFSET(AAreaClass, VFX); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AAreaClass, Mesh); } \
 	FORCEINLINE static uint32 __PPO__isDoingDamage() { return STRUCT_OFFSET(AAreaClass, isDoingDamage); } \
+	FORCEINLINE static uint32 __PPO__isApplyingTick() { return STRUCT_OFFSET(AAreaClass, isApplyingTick); } \
 	FORCEINLINE static uint32 __PPO__areaValue() { return STRUCT_OFFSET(AAreaClass, areaValue); } \
 	FORCEINLINE static uint32 __PPO__areaLife() { return STRUCT_OFFSET(AAreaClass, areaLife); }
 

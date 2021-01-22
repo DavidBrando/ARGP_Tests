@@ -134,7 +134,7 @@ void AAndrianCharacter::BuffControl(int buffType, float factorizedBuff)
 		case 0:
 		{
 			//Applying the results of increase of the buff, could be decrease too
-			float value = Ability1_Damage * factorizedBuff;
+			float value = DefaultAbility1_Damage * factorizedBuff;
 
 			if (value > 0.0f) {
 				VFX_Buff->Activate();
