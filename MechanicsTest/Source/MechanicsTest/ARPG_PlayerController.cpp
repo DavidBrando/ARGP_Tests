@@ -152,14 +152,19 @@ void AARPG_PlayerController::MyPawnSpecialAbility2()
 	}
 }
 
+//Abality3
 void AARPG_PlayerController::MyPawnSpecialAbility3()
 {
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility3();
+	}
 }
 
 void AARPG_PlayerController::MyPawnSpecialAbility4()
 {
 }
 
+//Ability5
 void AARPG_PlayerController::MyPawnSpecialAbility5()
 {
 	if (MyPawn != nullptr) {
@@ -167,6 +172,7 @@ void AARPG_PlayerController::MyPawnSpecialAbility5()
 	}
 }
 
+//Ability6
 void AARPG_PlayerController::MyPawnSpecialAbility6()
 {
 	if (MyPawn != nullptr) {

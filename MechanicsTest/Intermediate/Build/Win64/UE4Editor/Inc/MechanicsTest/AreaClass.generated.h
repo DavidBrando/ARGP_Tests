@@ -14,8 +14,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MECHANICSTEST_AreaClass_generated_h
 
 #define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_SPARSE_DATA
-#define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_RPC_WRAPPERS
-#define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetApplyingTick) \
+	{ \
+		P_GET_UBOOL(Z_Param_b); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetApplyingTick(Z_Param_b); \
+		P_NATIVE_END; \
+	}
+
+
+#define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetApplyingTick) \
+	{ \
+		P_GET_UBOOL(Z_Param_b); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetApplyingTick(Z_Param_b); \
+		P_NATIVE_END; \
+	}
+
+
 #define MechanicsTest_Source_MechanicsTest_AreaClass_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAreaClass(); \

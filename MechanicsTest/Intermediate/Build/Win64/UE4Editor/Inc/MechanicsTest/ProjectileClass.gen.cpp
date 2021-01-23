@@ -106,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileClass() {}
 		{ "ModuleRelativePath", "ProjectileClass.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProjectileClass, nullptr, "OnOverlapBegin", nullptr, nullptr, sizeof(ProjectileClass_eventOnOverlapBegin_Parms), Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProjectileClass, nullptr, "OnOverlapBegin", nullptr, nullptr, sizeof(ProjectileClass_eventOnOverlapBegin_Parms), Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileClass_OnOverlapBegin_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AProjectileClass_OnOverlapBegin()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -160,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileClass() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MechanicsTest,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AProjectileClass_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AProjectileClass_OnOverlapBegin, "OnOverlapBegin" }, // 2173596596
+		{ &Z_Construct_UFunction_AProjectileClass_OnOverlapBegin, "OnOverlapBegin" }, // 728489008
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileClass_Statics::Class_MetaDataParams[] = {
@@ -267,7 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectileClass, 2731090527);
+	IMPLEMENT_CLASS(AProjectileClass, 2394281259);
 	template<> MECHANICSTEST_API UClass* StaticClass<AProjectileClass>()
 	{
 		return AProjectileClass::StaticClass();

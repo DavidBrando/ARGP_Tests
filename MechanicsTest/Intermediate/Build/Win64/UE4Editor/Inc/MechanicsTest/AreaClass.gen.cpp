@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 	MECHANICSTEST_API UClass* Z_Construct_UClass_AAreaClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MechanicsTest();
+	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AAreaClass_SetApplyingTick();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -24,6 +25,48 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 // End Cross Module References
 	void AAreaClass::StaticRegisterNativesAAreaClass()
 	{
+		UClass* Class = AAreaClass::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "SetApplyingTick", &AAreaClass::execSetApplyingTick },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics
+	{
+		struct AreaClass_eventSetApplyingTick_Parms
+		{
+			bool b;
+		};
+		static void NewProp_b_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::NewProp_b_SetBit(void* Obj)
+	{
+		((AreaClass_eventSetApplyingTick_Parms*)Obj)->b = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::NewProp_b = { "b", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AreaClass_eventSetApplyingTick_Parms), &Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::NewProp_b_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::NewProp_b,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AreaClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAreaClass, nullptr, "SetApplyingTick", nullptr, nullptr, sizeof(AreaClass_eventSetApplyingTick_Parms), Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAreaClass_SetApplyingTick()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAreaClass_SetApplyingTick_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAreaClass_NoRegister()
 	{
@@ -32,6 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 	struct Z_Construct_UClass_AAreaClass_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -76,6 +120,9 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 	UObject* (*const Z_Construct_UClass_AAreaClass_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_MechanicsTest,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AAreaClass_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAreaClass_SetApplyingTick, "SetApplyingTick" }, // 1126037400
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAreaClass_Statics::Class_MetaDataParams[] = {
@@ -193,11 +240,11 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AAreaClass_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AAreaClass_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -212,7 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeAreaClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAreaClass, 1338091137);
+	IMPLEMENT_CLASS(AAreaClass, 753713287);
 	template<> MECHANICSTEST_API UClass* StaticClass<AAreaClass>()
 	{
 		return AAreaClass::StaticClass();

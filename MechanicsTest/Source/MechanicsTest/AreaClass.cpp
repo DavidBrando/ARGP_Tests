@@ -47,3 +47,8 @@ void AAreaClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Oth
 {
 }
 
+void AAreaClass::SetApplyingTick(bool b)
+{
+	 isApplyingTick = b; 
+}
+

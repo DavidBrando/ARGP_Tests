@@ -8,6 +8,7 @@
 
 class UParticleSystemComponent;
 class UMaterial;
+class AProjectileArea;
 
 UCLASS()
 class MECHANICSTEST_API AAndrianCharacter : public AMechanicsTestCharacter
@@ -42,6 +43,12 @@ public:
 
 	virtual void BuffControl(int buffType, float factorizedBuff) override;
 
+	UFUNCTION(BlueprintCallable)
+	void AttachOrbToHand();
+
+	UFUNCTION(BlueprintCallable)
+	void LaunchOrb();
+
 
 protected:
 
@@ -58,6 +65,12 @@ protected:
 	float Abality2Coldown = 20.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	bool isCastingAbility3 = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	float Abality3Coldown = 9.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	bool isCastingAbility5 = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
@@ -71,39 +84,57 @@ protected:
 
 
 	//need to created others timers and bools for abilites
+
+
+
 protected:
+
 
 	//type of projectile for shooting main ability
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<class AProjectileClass> bulletType;
+		TSubclassOf<class AProjectileClass> bulletType;
+
+	//type of projectile for shooting orb ability
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+		TSubclassOf<AProjectileArea> orbType;
+
+	AProjectileArea* AreaProjectile;
 
 	// component of the projectile to spawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
-	USceneComponent* SpawnProjectile;
+		USceneComponent* SpawnProjectile;
 
 	// component of the area to spawn
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
-	USceneComponent* SpawnArea;
+		USceneComponent* SpawnArea;
 
 	//Anim montage for shooting fire balls
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
-	UAnimMontage* AnimMontage;
+		UAnimMontage* AnimMontageFireBall;
+
+	//Anim montage for shooting fire balls
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
+		UAnimMontage* AnimMontageOrb;
+
+	//Will change for each spawn of the ability
+	bool tickDamage = false;
 
 	//VFX
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = VFX, meta = (AllowPrivateAccess = "true"))
-	UParticleSystemComponent* VFX_Buff;
+		UParticleSystemComponent* VFX_Buff;
 
 	//Area buff for spawning.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<class AAreaClass> AreaBuff;
+		TSubclassOf<class AAreaClass> AreaBuff;
 
 	//Material for make character invisible
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX, meta = (AllowPrivateAccess = "true"))
-	UMaterial *invisibleMaterial;
+		UMaterial* invisibleMaterial;
 
 	//Default material
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX, meta = (AllowPrivateAccess = "true"))
-	UMaterial* DefaultMaterial;
+		UMaterial* DefaultMaterial;
+
 
 private:
 
@@ -114,6 +145,10 @@ private:
 	//Function for reset time handle for ability 2, area buff
 	void ResetTimerForAbility2();
 	FTimerHandle TimerHandleAbility2;
+
+	//Function for reset time handle for ability 3, acid orb
+	void ResetTimerForAbility3();
+	FTimerHandle TimerHandleAbility3;
 
 	//Function for reset time handle for ability 5, tp ability
 	void ResetTimerForAbility5();

@@ -41,3 +41,5 @@ E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitte
 E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\AreaClass.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\AreaClass.generated.h
+E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\ProjectileArea.h
+E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\ProjectileArea.generated.h

@@ -13,6 +13,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "AreaClass.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "ProjectileArea.h"
 
 AAndrianCharacter::AAndrianCharacter() {
 
@@ -57,9 +58,9 @@ void AAndrianCharacter::SpecialAbility1()
 		FTransform SpawnInfo = CalculateTransform(OutHit.ImpactPoint, OutHit.TraceEnd, isHitting);
 
 		//Playing animation
-		if (AnimMontage) {
+		if (AnimMontageFireBall) {
 
-			Abality1Coldown = PlayAnimMontage(AnimMontage);
+			Abality1Coldown = PlayAnimMontage(AnimMontageFireBall);
 
 		}
 
@@ -79,9 +80,10 @@ void AAndrianCharacter::SpecialAbility1()
 
 			AProjectileClass* projectile = GetWorld()->SpawnActor<AProjectileClass>(bulletType, SpawnInfo, SpawnParams);
 			projectile->SetDamage(Ability1_Damage);
+			
 		}
 
-
+		
 	}
 
 
@@ -109,10 +111,58 @@ void AAndrianCharacter::SpecialAbility2()
 	}
 }
 
+//Create acid orb to launch it
 void AAndrianCharacter::SpecialAbility3()
 {
+	if (isCastingAbility3 == false) {
+
+		isCastingAbility3 = true;
+
+		if (orbType != nullptr) {
+
+			//Spawning info
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+
+			AreaProjectile = GetWorld()->SpawnActor<AProjectileArea>(orbType, SpawnProjectile->GetComponentLocation(), FRotator(0.0f), SpawnParams);
+
+			if (AnimMontageOrb) {
+				Abality3Coldown = PlayAnimMontage(AnimMontageOrb);
+			}
+
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, AreaProjectile->GetActorLocation().ToString());
+
+
+			//start on false
+			tickDamage = !tickDamage;
+
+			//Reset ability coldown
+			GetWorldTimerManager().SetTimer(TimerHandleAbility3, this, &AAndrianCharacter::ResetTimerForAbility3, Abality3Coldown, false);
+		}
+
+	}
 }
 
+
+void AAndrianCharacter::AttachOrbToHand()
+{
+	//Attach new orb to the hand
+	FAttachmentTransformRules rules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::KeepWorld, false);
+
+	AreaProjectile->AttachToComponent(Cast<USceneComponent>(GetMesh()), rules, "ProjectileSpawn");
+}
+
+void AAndrianCharacter::LaunchOrb()
+{
+	//Detach orb projectile
+	FDetachmentTransformRules rules(EDetachmentRule::KeepWorld, false);
+	AreaProjectile->DetachFromActor(rules);
+	AreaProjectile->LaunchOrb();
+	AreaProjectile->SetTickDamage(tickDamage);
+}
+
+
+//Activating homing projectiles
 void AAndrianCharacter::SpecialAbility4()
 {
 	
@@ -229,6 +279,7 @@ void AAndrianCharacter::BuffControl(int buffType, float factorizedBuff)
 
 //Reset functions for coldowns
 
+
 void AAndrianCharacter::ResetTimerForAbility1()
 {
 	ChangeMoviementCharacter(false, true);
@@ -240,6 +291,12 @@ void AAndrianCharacter::ResetTimerForAbility2()
 {
 	isCastingAbility2 = false;
 	GetWorldTimerManager().ClearTimer(TimerHandleAbility2);
+}
+
+void AAndrianCharacter::ResetTimerForAbility3()
+{
+	isCastingAbility3 = false;
+	GetWorldTimerManager().ClearTimer(TimerHandleAbility3);
 }
 
 void AAndrianCharacter::ResetTimerForAbility5()

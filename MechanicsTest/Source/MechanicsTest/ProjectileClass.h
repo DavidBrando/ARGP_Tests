@@ -29,7 +29,7 @@ protected:
 
 	//For colision purposes
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
-		UCapsuleComponent* capsule;
+	UCapsuleComponent* capsule;
 
 	//root component of the projectile
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
@@ -45,18 +45,18 @@ protected:
 
 	//More VFX for cool explosions
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
-		UParticleSystem* explosion;
+		UParticleSystem* explosion = nullptr;
 
 	//Damage of the projectile
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = ProjectilComp, meta = (AllowPrivateAccess = "true"))
-	float damage;
+	float damage = 0.0f;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
-	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	void SetDamage(float nDamage); //seeting a new damage if we want more powerful shoots
 

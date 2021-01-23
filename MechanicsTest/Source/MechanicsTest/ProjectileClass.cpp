@@ -61,10 +61,13 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	if (OtherActor != nullptr && OtherActor != GetOwner()) {
 
 		if (explosion) {
-			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), explosion, OtherActor->GetActorLocation(), FRotator(0.0f));
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), explosion, this->GetActorLocation(), FRotator(0.0f));
 		}
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, SweepResult.Location.ToString());
+
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, OtherActor->GetName());
+
 
 		//Sending damage using TakeDamage event
 		TSubclassOf<UDamageType> const ValidDamageTypeClass;

@@ -70,6 +70,9 @@
     <ClInclude Include="..\..\Source\MechanicsTest\AreaClass.h">
       <Filter>Source\MechanicsTest</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MechanicsTest\ProjectileArea.h">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MechanicsTest\ARPG_PlayerController.cpp">
@@ -85,6 +88,9 @@
       <Filter>Source\MechanicsTest</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MechanicsTest\AreaClass.cpp">
+      <Filter>Source\MechanicsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MechanicsTest\ProjectileArea.cpp">
       <Filter>Source\MechanicsTest</Filter>
     </ClCompile>
   </ItemGroup>
