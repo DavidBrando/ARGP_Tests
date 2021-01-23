@@ -101,6 +101,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAndrianCharacter); \
 	FORCEINLINE static uint32 __PPO__Abality2Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality2Coldown); } \
 	FORCEINLINE static uint32 __PPO__isCastingAbility3() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility3); } \
 	FORCEINLINE static uint32 __PPO__Abality3Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality3Coldown); } \
+	FORCEINLINE static uint32 __PPO__isCastingAbility4() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility4); } \
+	FORCEINLINE static uint32 __PPO__Abality4Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality4Coldown); } \
 	FORCEINLINE static uint32 __PPO__isCastingAbility5() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility5); } \
 	FORCEINLINE static uint32 __PPO__Abality5Coldown() { return STRUCT_OFFSET(AAndrianCharacter, Abality5Coldown); } \
 	FORCEINLINE static uint32 __PPO__isCastingAbility6() { return STRUCT_OFFSET(AAndrianCharacter, isCastingAbility6); } \

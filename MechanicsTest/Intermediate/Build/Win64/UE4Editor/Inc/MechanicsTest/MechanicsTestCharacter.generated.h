@@ -17,6 +17,14 @@ class UHealthSystemComponent;
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_SPARSE_DATA
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetIsEnemy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsEnemy(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetHealthComponent) \
 	{ \
 		P_FINISH; \
@@ -37,6 +45,14 @@ class UHealthSystemComponent;
 
 
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetIsEnemy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsEnemy(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetHealthComponent) \
 	{ \
@@ -101,7 +117,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMechanicsTestCharacter); \
 
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AMechanicsTestCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMechanicsTestCharacter, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMechanicsTestCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__bIsEnemy() { return STRUCT_OFFSET(AMechanicsTestCharacter, bIsEnemy); }
 
 
 #define MechanicsTest_Source_MechanicsTest_MechanicsTestCharacter_h_11_PROLOG

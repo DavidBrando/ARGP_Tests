@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl();
 	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_GetHealthComponent();
 	MECHANICSTEST_API UClass* Z_Construct_UClass_UHealthSystemComponent_NoRegister();
+	MECHANICSTEST_API UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "BuffControl", &AMechanicsTestCharacter::execBuffControl },
 			{ "GetHealthComponent", &AMechanicsTestCharacter::execGetHealthComponent },
+			{ "GetIsEnemy", &AMechanicsTestCharacter::execGetIsEnemy },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -110,6 +112,45 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics
+	{
+		struct MechanicsTestCharacter_eventGetIsEnemy_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((MechanicsTestCharacter_eventGetIsEnemy_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MechanicsTestCharacter_eventGetIsEnemy_Parms), &Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Check if is enemy or not\n" },
+		{ "ModuleRelativePath", "MechanicsTestCharacter.h" },
+		{ "ToolTip", "Check if is enemy or not" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMechanicsTestCharacter, nullptr, "GetIsEnemy", nullptr, nullptr, sizeof(MechanicsTestCharacter_eventGetIsEnemy_Parms), Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AMechanicsTestCharacter_NoRegister()
 	{
 		return AMechanicsTestCharacter::StaticClass();
@@ -121,6 +162,11 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsEnemy_MetaData[];
+#endif
+		static void NewProp_bIsEnemy_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsEnemy;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -148,6 +194,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMechanicsTestCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMechanicsTestCharacter_BuffControl, "BuffControl" }, // 4192175502
 		{ &Z_Construct_UFunction_AMechanicsTestCharacter_GetHealthComponent, "GetHealthComponent" }, // 3586352488
+		{ &Z_Construct_UFunction_AMechanicsTestCharacter_GetIsEnemy, "GetIsEnemy" }, // 3796839940
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMechanicsTestCharacter_Statics::Class_MetaDataParams[] = {
@@ -156,6 +203,18 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		{ "ModuleRelativePath", "MechanicsTestCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "InfoCharacter" },
+		{ "ModuleRelativePath", "MechanicsTestCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy_SetBit(void* Obj)
+	{
+		((AMechanicsTestCharacter*)Obj)->bIsEnemy = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy = { "bIsEnemy", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMechanicsTestCharacter), &Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -197,6 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMechanicsTestCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMechanicsTestCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_bIsEnemy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMechanicsTestCharacter_Statics::NewProp_FollowCamera,
@@ -229,7 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeMechanicsTestCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMechanicsTestCharacter, 886257412);
+	IMPLEMENT_CLASS(AMechanicsTestCharacter, 801620167);
 	template<> MECHANICSTEST_API UClass* StaticClass<AMechanicsTestCharacter>()
 	{
 		return AMechanicsTestCharacter::StaticClass();

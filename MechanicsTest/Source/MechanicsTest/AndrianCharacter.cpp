@@ -14,6 +14,8 @@
 #include "AreaClass.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "ProjectileArea.h"
+#include "DrawDebugHelpers.h"
+
 
 AAndrianCharacter::AAndrianCharacter() {
 
@@ -52,7 +54,7 @@ void AAndrianCharacter::SpecialAbility1()
 		FCollisionQueryParams ColisionParams;
 
 		//Tracing raycasting
-		bool isHitting = GetWorld()->LineTraceSingleByChannel(OutHit, start, end, ECC_Visibility, ColisionParams);
+		bool isHitting = GetWorld()->LineTraceSingleByChannel(OutHit, start, end, ECC_Camera, ColisionParams);
 
 		//Calling the method that will give us the transform for spawn the projectile
 		FTransform SpawnInfo = CalculateTransform(OutHit.ImpactPoint, OutHit.TraceEnd, isHitting);
@@ -80,6 +82,13 @@ void AAndrianCharacter::SpecialAbility1()
 
 			AProjectileClass* projectile = GetWorld()->SpawnActor<AProjectileClass>(bulletType, SpawnInfo, SpawnParams);
 			projectile->SetDamage(Ability1_Damage);
+
+
+			//applying homing projectiles if ability 4 is on use
+			if (isCastingAbility4 == true) {
+
+				projectile->MakeProjectileHoming(Objective->GetMesh());
+			}
 			
 		}
 
@@ -166,7 +175,45 @@ void AAndrianCharacter::LaunchOrb()
 //Activating homing projectiles
 void AAndrianCharacter::SpecialAbility4()
 {
-	
+	if (isCastingAbility4 == false) {
+
+		//Getting vectors for math caltulations
+		const FVector ForwardCamVector = FollowCamera->GetForwardVector();
+		const float Distance = 3000.0f;
+
+		//Preparing location info from impacting
+		FHitResult OutHit;
+		FVector start = FollowCamera->GetComponentLocation();
+		FVector end = (ForwardCamVector * Distance) + start;
+		FCollisionQueryParams ColisionParams;
+
+		//Tracing raycasting for localize a enemy for prepare homing misiles
+		bool isHitting = GetWorld()->LineTraceSingleByChannel(OutHit, start, end, ECC_Camera, ColisionParams);
+
+		DrawDebugLine(GetWorld(), start, end, FColor::Green, 1.0f);
+
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isHitting ? TEXT("true") : TEXT("false"));
+
+		//if we hit something, checking if it is a enemy
+		if (isHitting == true) {
+
+			Objective = Cast<AMechanicsTestCharacter>(OutHit.Actor);
+
+			//if cast was done correctly
+			if (Objective && Objective->GetIsEnemy() == true) {
+
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Cyan, Objective->GetName());
+
+				isCastingAbility4 = true;
+				VFX_Buff->Activate();
+
+				//Reset ability coldown
+				GetWorldTimerManager().SetTimer(TimerHandleAbility4, this, &AAndrianCharacter::ResetTimerForAbility4, Abality4Coldown, false);
+			}
+
+		}
+
+	}
 }
 
 //TP ability
@@ -298,6 +345,13 @@ void AAndrianCharacter::ResetTimerForAbility3()
 {
 	isCastingAbility3 = false;
 	GetWorldTimerManager().ClearTimer(TimerHandleAbility3);
+}
+
+void AAndrianCharacter::ResetTimerForAbility4()
+{
+	isCastingAbility4 = false;
+	VFX_Buff->Deactivate();
+	GetWorldTimerManager().ClearTimer(TimerHandleAbility4);
 }
 
 void AAndrianCharacter::ResetTimerForAbility5()

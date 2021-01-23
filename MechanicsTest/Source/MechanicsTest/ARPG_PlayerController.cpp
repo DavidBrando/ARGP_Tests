@@ -136,7 +136,7 @@ void AARPG_PlayerController::MyPawnControllerPitchInput(float value)
 
 /// <Ability inputs>
 
-//Main ability
+//Main ability (fire ball)
 void AARPG_PlayerController::MyPawnSpecialAbility1()
 {
 	if (MyPawn != nullptr) {
@@ -144,7 +144,7 @@ void AARPG_PlayerController::MyPawnSpecialAbility1()
 	}
 }
 
-//Ability 2
+//Ability 2 (area buff)
 void AARPG_PlayerController::MyPawnSpecialAbility2()
 {
 	if (MyPawn != nullptr) {
@@ -152,7 +152,7 @@ void AARPG_PlayerController::MyPawnSpecialAbility2()
 	}
 }
 
-//Abality3
+//Abality3 (acid orb)
 void AARPG_PlayerController::MyPawnSpecialAbility3()
 {
 	if (MyPawn != nullptr) {
@@ -160,11 +160,15 @@ void AARPG_PlayerController::MyPawnSpecialAbility3()
 	}
 }
 
+//Ability 4 (homing projectiles for fire ball)
 void AARPG_PlayerController::MyPawnSpecialAbility4()
 {
+	if (MyPawn != nullptr) {
+		MyPawn->SpecialAbility4();
+	}
 }
 
-//Ability5
+//Ability5 (teleport)
 void AARPG_PlayerController::MyPawnSpecialAbility5()
 {
 	if (MyPawn != nullptr) {
@@ -172,7 +176,7 @@ void AARPG_PlayerController::MyPawnSpecialAbility5()
 	}
 }
 
-//Ability6
+//Ability6 (invisibility)
 void AARPG_PlayerController::MyPawnSpecialAbility6()
 {
 	if (MyPawn != nullptr) {

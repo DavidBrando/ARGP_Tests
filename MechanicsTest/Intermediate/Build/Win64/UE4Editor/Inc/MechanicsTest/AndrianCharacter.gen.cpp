@@ -156,6 +156,15 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		static void NewProp_isCastingAbility5_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isCastingAbility5;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Abality4Coldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Abality4Coldown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isCastingAbility4_MetaData[];
+#endif
+		static void NewProp_isCastingAbility4_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isCastingAbility4;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Abality3Coldown_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Abality3Coldown;
@@ -359,6 +368,26 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility5 = { "isCastingAbility5", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAndrianCharacter), &Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility5_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility5_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility5_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality4Coldown_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AbilityVariables" },
+		{ "ModuleRelativePath", "AndrianCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality4Coldown = { "Abality4Coldown", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAndrianCharacter, Abality4Coldown), METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality4Coldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality4Coldown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AbilityVariables" },
+		{ "ModuleRelativePath", "AndrianCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4_SetBit(void* Obj)
+	{
+		((AAndrianCharacter*)Obj)->isCastingAbility4 = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4 = { "isCastingAbility4", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAndrianCharacter), &Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality3Coldown_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "AbilityVariables" },
@@ -434,6 +463,8 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility6,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality5Coldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility5,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality4Coldown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility4,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality3Coldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_isCastingAbility3,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_Abality2Coldown,
@@ -468,7 +499,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAndrianCharacter, 1723599511);
+	IMPLEMENT_CLASS(AAndrianCharacter, 3152129828);
 	template<> MECHANICSTEST_API UClass* StaticClass<AAndrianCharacter>()
 	{
 		return AAndrianCharacter::StaticClass();

@@ -1,0 +1,1540 @@
+﻿Log file open, 01/23/21 21:19:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MechanicsTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.045569
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz, GPU: NVIDIA GeForce RTX 3070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: E:/EpicGames/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:164][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:166][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:166][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.23-20.19.10:166][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.23-20.19.10:166][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:166][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.23-20.19.10:166][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.23-20.19.10:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.23-20.19.10:167][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-20.19.10:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.23-20.19.10:169][  0]LogHAL: Display: Platform has ~ 16 GB [17085243392 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.23-20.19.10:169][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.23-20.19.10:169][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Scalability.ini]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.23-20.19.10:170][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Config/Windows/Engine.ini]
+[2021.01.23-20.19.10:170][  0]LogInit: Computer: DESKTOP-89J1JGB
+[2021.01.23-20.19.10:170][  0]LogInit: User: User
+[2021.01.23-20.19.10:170][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.23-20.19.10:170][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.23-20.19.10:170][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.23-20.19.10:170][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.23-20.19.10:170][  0]LogMemory: Process Physical Memory: 105.95 MB used, 105.95 MB peak
+[2021.01.23-20.19.10:170][  0]LogMemory: Process Virtual Memory: 101.02 MB used, 101.02 MB peak
+[2021.01.23-20.19.10:170][  0]LogMemory: Physical Memory: 6465.39 MB used,  9828.37 MB free, 16293.76 MB total
+[2021.01.23-20.19.10:170][  0]LogMemory: Virtual Memory: 5141.63 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.01.23-20.19.10:171][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.23-20.19.10:190][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.23-20.19.10:190][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2021.01.23-20.19.10:190][  0]LogInit: Using OS detected locale (es-ES).
+[2021.01.23-20.19.10:306][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.23-20.19.10:331][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.23-20.19.10:331][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.23-20.19.10:412][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-20.19.10:412][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.23-20.19.10:412][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.23-20.19.10:412][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.23-20.19.10:484][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070' (Feature Level 11_0)
+[2021.01.23-20.19.10:484][  0]LogD3D11RHI:       8043/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.23-20.19.10:485][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.23-20.19.10:485][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.23-20.19.10:485][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.23-20.19.10:489][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.23-20.19.10:489][  0]LogD3D11RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.23-20.19.10:489][  0]LogWindows: EnumDisplayDevices:
+[2021.01.23-20.19.10:489][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070' (P:1 D:1)
+[2021.01.23-20.19.10:489][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070' (P:0 D:1)
+[2021.01.23-20.19.10:489][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2021.01.23-20.19.10:490][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070' (P:0 D:0)
+[2021.01.23-20.19.10:490][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.23-20.19.10:490][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070
+[2021.01.23-20.19.10:490][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.01.23-20.19.10:490][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.01.23-20.19.10:490][  0]LogRHI: Texture pool is 5630 MB (70% of 8043 MB)
+[2021.01.23-20.19.10:537][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.23-20.19.10:537][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.23-20.19.10:548][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.23-20.19.10:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.23-20.19.10:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.23-20.19.10:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.23-20.19.10:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.23-20.19.10:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.23-20.19.10:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.23-20.19.10:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.23-20.19.10:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.23-20.19.10:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.23-20.19.10:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.23-20.19.10:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.23-20.19.10:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.23-20.19.10:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.23-20.19.10:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.23-20.19.10:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.23-20.19.10:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.23-20.19.10:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.23-20.19.10:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.23-20.19.10:840][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.23-20.19.10:842][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.23-20.19.10:853][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../GitHub/ARGP_Tests/MechanicsTest/Intermediate/Shaders/WorkingDirectory/8548/).
+[2021.01.23-20.19.10:853][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/0B15933E4FEC16A92C5B628EC0A2C66E/'.
+[2021.01.23-20.19.10:853][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.23-20.19.10:853][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.23-20.19.10:853][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.23-20.19.11:381][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.23-20.19.11:435][  0]LogDerivedDataCache: Loaded boot cache 0.05s 83MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.01.23-20.19.11:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2021.01.23-20.19.11:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/ARGP_Tests/MechanicsTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.23-20.19.11:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.23-20.19.11:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/ARGP_Tests/MechanicsTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.23-20.19.11:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.23-20.19.11:443][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.23-20.19.11:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.23-20.19.11:443][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.23-20.19.11:444][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.23-20.19.11:444][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.23-20.19.11:444][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.23-20.19.11:463][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.23-20.19.11:465][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.23-20.19.11:465][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.23-20.19.11:499][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
+[2021.01.23-20.19.11:702][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-20.19.11:866][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.23-20.19.11:866][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.23-20.19.11:866][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.23-20.19.11:866][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.23-20.19.11:866][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.23-20.19.11:876][  0]LogNetVersion: MechanicsTest 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2885974829)
+[2021.01.23-20.19.12:694][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.132953 seconds
+[2021.01.23-20.19.12:699][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2021.01.23-20.19.12:699][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2021.01.23-20.19.12:699][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.23-20.19.12:981][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.23-20.19.12:983][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.23-20.19.14:668][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.14:668][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.14:669][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.14:669][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.14:670][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.14:722][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.23-20.19.14:730][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.23-20.19.14:730][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.23-20.19.14:789][  0]LogOcInput: OculusInput pre-init called
+[2021.01.23-20.19.14:793][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.23-20.19.14:793][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.23-20.19.14:840][  0]LogEngine: Initializing Engine...
+[2021.01.23-20.19.14:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-20.19.14:841][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.23-20.19.15:093][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.23-20.19.15:098][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.23-20.19.15:114][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.23-20.19.15:114][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.23-20.19.15:114][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Name: Altavoces (USB Audio Device)
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Is Default: Yes
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: Channel Order:
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-20.19.15:127][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-20.19.15:139][  0]LogAudioMixer: Display: Using Audio Device Altavoces (USB Audio Device)
+[2021.01.23-20.19.15:147][  0]LogInit: FAudioDevice initialized.
+[2021.01.23-20.19.15:147][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.23-20.19.15:228][  0]LogDerivedDataCache: Saved boot cache 0.08s 83MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2021.01.23-20.19.15:231][  0]LogInit: Texture streaming: Enabled
+[2021.01.23-20.19.15:237][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.23-20.19.15:237][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.23-20.19.15:239][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.23-20.19.15:355][  0]LogInit: Transaction tracking system initialized
+[2021.01.23-20.19.15:361][  0]BlueprintLog: New page: Editor Load
+[2021.01.23-20.19.15:379][  0]LocalizationService: Localization service is disabled
+[2021.01.23-20.19.15:609][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/ARGP_Tests/MechanicsTest/Content/' took 0.02s
+[2021.01.23-20.19.15:609][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.23-20.19.15:610][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.23-20.19.16:035][  0]SourceControl: Source control is disabled
+[2021.01.23-20.19.16:035][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/ARGP_Tests/MechanicsTest/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.23-20.19.16:035][  0]LightingResults: New page: Lighting Build
+[2021.01.23-20.19.16:036][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.23-20.19.16:036][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.23-20.19.16:036][  0]MapCheck: New page: Map Check
+[2021.01.23-20.19.16:036][  0]LightingResults: New page: Lighting Build
+[2021.01.23-20.19.16:062][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.01.23-20.19.16:704][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.23-20.19.16:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.23-20.19.16:794][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.23-20.19.16:795][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.23-20.19.16:795][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,075ms to complete.
+[2021.01.23-20.19.16:795][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.760
+[2021.01.23-20.19.17:238][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.19.17:243][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.19.17:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.19.17:253][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.19.17:308][  0]LogCollectionManager: Loaded 0 collections in 0.000675 seconds
+[2021.01.23-20.19.17:466][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/ARGP_Tests/MechanicsTest/Saved/Collections/' took 0.00s
+[2021.01.23-20.19.17:466][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/ARGP_Tests/MechanicsTest/Content/Developers/User/Collections/' took 0.00s
+[2021.01.23-20.19.17:466][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/ARGP_Tests/MechanicsTest/Content/Collections/' took 0.00s
+[2021.01.23-20.19.17:466][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 3023 classes and 719 folders.
+[2021.01.23-20.19.17:508][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.19.18:423][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.19.18:455][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.01.23-20.19.18:775][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.23-20.19.18:778][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.23-20.19.18:834][  0]LogSlate: Took 0.041740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.23-20.19.19:108][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.01.23-20.19.19:275][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.19.19:275][  0]LogLoad: (Engine Initialization) Total time: 10.81 seconds
+[2021.01.23-20.19.19:275][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.23-20.19.19:349][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.23-20.19.19:438][  0]LogSlate: Took 0.016797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.23-20.19.19:726][  5]LogAssetRegistry: Asset discovery search completed in 8.2271 seconds
+[2021.01.23-20.19.19:729][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2021.01.23-20.19.35:187][819]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.23-20.19.35:209][819]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/MechanicsTest.AndrianCharacter
+[2021.01.23-20.28.16:822][442]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemies)
+[2021.01.23-20.28.19:172][615]LogSlate: Took 0.018591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.23-20.28.20:247][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Enemy.BP_Enemy
+[2021.01.23-20.28.20:564][738]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2021.01.23-20.28.21:566][738]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.23-20.38.06:135][889]LogHotReload: New module detected: UE4Editor-MechanicsTest-0055.dll
+[2021.01.23-20.38.07:156][893]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.23-20.38.07:215][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.01.23-20.38.07:232][893]LogClass: Could not find existing class AndrianCharacter in package /Script/MechanicsTest for HotReload, assuming new class
+[2021.01.23-20.38.07:232][893]LogClass: Could not find existing class MechanicsTestCharacter in package /Script/MechanicsTest for HotReload, assuming new class
+[2021.01.23-20.38.07:232][893]LogClass: Function BuffControl is new.
+[2021.01.23-20.38.07:232][893]LogClass: Function GetHealthComponent is new.
+[2021.01.23-20.38.07:232][893]LogClass: Function GetIsEnemy is new.
+[2021.01.23-20.38.07:232][893]LogClass: Function AttachOrbToHand is new.
+[2021.01.23-20.38.07:232][893]LogClass: Function LaunchOrb is new.
+[2021.01.23-20.38.07:252][893]LogHotReload: Re-instancing AndrianCharacter after hot-reload.
+[2021.01.23-20.38.07:562][893]LogHotReload: Re-instancing MechanicsTestCharacter after hot-reload.
+[2021.01.23-20.38.07:977][893]LogContentBrowser: Native class hierarchy updated for 'MechanicsTest' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2021.01.23-20.38.07:980][893]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2021.01.23-20.38.08:058][893]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.01.23-20.38.08:069][893]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3025 classes and 722 folders.
+[2021.01.23-20.38.08:080][893]Display: HotReload took  0.9s.
+[2021.01.23-20.39.19:789][125]LogHotReload: New module detected: UE4Editor-MechanicsTest-0056.dll
+[2021.01.23-20.39.20:488][128]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.23-20.39.20:557][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.01.23-20.39.20:575][128]LogClass: Could not find existing class AndrianCharacter in package /Script/MechanicsTest for HotReload, assuming new class
+[2021.01.23-20.39.20:575][128]LogClass: Could not find existing class MechanicsTestCharacter in package /Script/MechanicsTest for HotReload, assuming new class
+[2021.01.23-20.39.20:575][128]LogClass: Function BuffControl is new.
+[2021.01.23-20.39.20:575][128]LogClass: Function GetHealthComponent is new.
+[2021.01.23-20.39.20:575][128]LogClass: Function GetIsEnemy is new.
+[2021.01.23-20.39.20:575][128]LogClass: Function AttachOrbToHand is new.
+[2021.01.23-20.39.20:575][128]LogClass: Function LaunchOrb is new.
+[2021.01.23-20.39.20:596][128]LogHotReload: Re-instancing AndrianCharacter after hot-reload.
+[2021.01.23-20.39.20:781][128]LogHotReload: Re-instancing MechanicsTestCharacter after hot-reload.
+[2021.01.23-20.39.21:210][128]LogContentBrowser: Native class hierarchy updated for 'MechanicsTest' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2021.01.23-20.39.21:216][128]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2021.01.23-20.39.21:310][128]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.01.23-20.39.21:323][128]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3025 classes and 722 folders.
+[2021.01.23-20.39.21:325][128]Display: HotReload took  0.8s.
+[2021.01.23-20.39.29:733][544]BlueprintLog: New page: Compile BP_Enemy
+[2021.01.23-20.39.30:058][544]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.01.23-20.39.30:727][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/BP_Enemy" FILE="../../../../../GitHub/ARGP_Tests/MechanicsTest/Content/ThirdPersonCPP/Blueprints/BP_Enemy.uasset" SILENT=true
+[2021.01.23-20.39.30:797][571]LogSavePackage: Moving '../../../../../GitHub/ARGP_Tests/MechanicsTest/Saved/BP_Enemy54A1CD71455E7885E163D7A0590FBB17.tmp' to '../../../../../GitHub/ARGP_Tests/MechanicsTest/Content/ThirdPersonCPP/Blueprints/BP_Enemy.uasset'
+[2021.01.23-20.39.30:822][571]AssetCheck: New page: Asset Save: BP_Enemy
+[2021.01.23-20.39.30:822][571]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Enemy.BP_Enemy
+[2021.01.23-20.42.14:365][ 65]BlueprintLog: New page: Compile BP_Enemy
+[2021.01.23-20.42.14:684][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.01.23-20.50.07:651][506]LogHotReload: New module detected: UE4Editor-MechanicsTest-0057.dll
+[2021.01.23-20.50.08:337][509]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.23-20.50.08:388][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.01.23-20.50.08:429][509]LogContentBrowser: Native class hierarchy updated for 'MechanicsTest' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2021.01.23-20.50.08:434][509]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.01.23-20.50.08:520][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.01.23-20.50.08:536][509]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3025 classes and 722 folders.
+[2021.01.23-20.50.08:538][509]Display: HotReload took  0.2s.
+[2021.01.23-20.52.17:668][129]LogHotReload: New module detected: UE4Editor-MechanicsTest-0058.dll
+[2021.01.23-20.52.18:352][132]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.23-20.52.18:440][132]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2021.01.23-20.52.18:488][132]LogContentBrowser: Native class hierarchy updated for 'MechanicsTest' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2021.01.23-20.52.18:494][132]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.01.23-20.52.18:596][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.23-20.52.18:609][132]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3025 classes and 722 folders.
+[2021.01.23-20.52.18:611][132]Display: HotReload took  0.3s.
+[2021.01.23-20.52.22:383][143]Candidate modules for hot reload:
+[2021.01.23-20.52.22:383][143]  MechanicsTest
+[2021.01.23-20.52.22:383][143]Launching UnrealBuildTool... [E:/EpicGames/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MechanicsTest,536 Win64 Development -TargetType=Editor -Project="E:/GitHub/ARGP_Tests/MechanicsTest/MechanicsTest.uproject" "E:/GitHub/ARGP_Tests/MechanicsTest/MechanicsTest.uproject"  -IgnoreJunk]
+[2021.01.23-20.52.22:384][143]Warning: Starting HotReload took  0.0s.
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: New page: Compilation - 23 ene. 2021 22:52:24
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\ARGP_Tests).
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Building MechanicsTestEditor...
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.01.23-20.52.24:311][304]CompilerResultsLog:   [1/3] UE4Editor-MechanicsTest-0536.lib
+[2021.01.23-20.52.24:311][304]CompilerResultsLog:      Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0536.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0536.exp
+[2021.01.23-20.52.24:311][304]CompilerResultsLog:   [2/3] UE4Editor-MechanicsTest-0536.dll
+[2021.01.23-20.52.24:311][304]CompilerResultsLog:      Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0536.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0536.suppressed.exp
+[2021.01.23-20.52.24:311][304]CompilerResultsLog:   [3/3] MechanicsTestEditor.target
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Total time in Parallel executor: 1,02 seconds
+[2021.01.23-20.52.24:311][304]CompilerResultsLog: Total execution time: 1,85 seconds
+[2021.01.23-20.52.24:311][304]LogMainFrame: MainFrame: Module compiling took 1.931 seconds
+[2021.01.23-20.52.24:367][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.01.23-20.52.24:382][304]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3025 classes and 722 folders.
+[2021.01.23-20.52.24:382][304]Display: HotReload took  2.0s.
+[2021.01.23-20.52.25:725][308]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-20.52.25:754][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2021.01.23-20.52.25:754][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-20.52.25:754][308]PIE: New page: PIE session: ThirdPersonExampleMap (23 ene. 2021 22:52:25)
+[2021.01.23-20.52.25:765][308]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.23-20.52.25:773][308]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.23-20.52.25:773][308]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.23-20.52.25:788][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015379s)
+[2021.01.23-20.52.25:799][308]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.23-20.52.25:799][308]LogPlayLevel: PIE: World Init took: (0.010630s)
+[2021.01.23-20.52.25:799][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026188s)
+[2021.01.23-20.52.25:860][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.23-20.52.25:860][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.23-20.52.25:860][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.23-20.52.25:861][308]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.23-20.52.25:861][308]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Name: Altavoces (USB Audio Device)
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Is Default: Yes
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: Channel Order:
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-20.52.25:872][308]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-20.52.25:880][308]LogAudioMixer: Display: Using Audio Device Altavoces (USB Audio Device)
+[2021.01.23-20.52.25:882][308]LogInit: FAudioDevice initialized.
+[2021.01.23-20.52.25:907][308]LogLoad: Game class is 'BP_MyMechanicsTestGameMode_C'
+[2021.01.23-20.52.25:927][308]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.01.23-21.52.25
+[2021.01.23-20.52.26:297][308]LogWorld: Bringing up level for play took: 0.370730
+[2021.01.23-20.52.26:297][308]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.01.23-20.52.26:685][308]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2021.01.23-20.52.26:743][308]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1,589
+[2021.01.23-20.52.26:743][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2021.01.23-20.52.26:754][308]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:060][309]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:065][310]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:073][311]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:082][312]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:090][313]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:098][314]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:106][315]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:115][316]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:123][317]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:132][318]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:139][319]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:148][320]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:156][321]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:165][322]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:173][323]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:182][324]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:191][325]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:199][326]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:206][327]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:215][328]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:223][329]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:231][330]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:240][331]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:248][332]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:257][333]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:265][334]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:273][335]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:281][336]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:290][337]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:298][338]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:307][339]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:315][340]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:323][341]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:331][342]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:340][343]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:348][344]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:357][345]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:365][346]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:373][347]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:382][348]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:390][349]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:398][350]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:407][351]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:415][352]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:423][353]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:431][354]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:440][355]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:448][356]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:456][357]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:465][358]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:473][359]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:482][360]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:490][361]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:498][362]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:506][363]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:515][364]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:523][365]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:532][366]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:540][367]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:548][368]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:557][369]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:565][370]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:574][371]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:582][372]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:590][373]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:599][374]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:607][375]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:615][376]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:639][377]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:645][378]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:652][379]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:661][380]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:699][381]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:707][382]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:715][383]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:724][384]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:732][385]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:741][386]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:749][387]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:757][388]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:766][389]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:774][390]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:782][391]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:791][392]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:799][393]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:808][394]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:816][395]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:824][396]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:833][397]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:841][398]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:849][399]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:858][400]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:878][401]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:886][402]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:895][403]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:903][404]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:911][405]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:920][406]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:928][407]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:937][408]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:945][409]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:953][410]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:962][411]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:970][412]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:978][413]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:987][414]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.27:995][415]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:004][416]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:012][417]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:020][418]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:028][419]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:037][420]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:045][421]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:054][422]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:062][423]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:071][424]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:079][425]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:087][426]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:096][427]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:104][428]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:112][429]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:121][430]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:129][431]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:137][432]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:145][433]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:154][434]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:162][435]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:170][436]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:178][437]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:187][438]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:195][439]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:204][440]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:212][441]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:221][442]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:229][443]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:237][444]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:246][445]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:254][446]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:262][447]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:271][448]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:279][449]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:287][450]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:296][451]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:304][452]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:312][453]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:321][454]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:329][455]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:337][456]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:346][457]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:354][458]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:363][459]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:370][460]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:378][461]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:387][462]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:395][463]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:403][464]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:412][465]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:420][466]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:429][467]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:437][468]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:445][469]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:454][470]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:462][471]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:471][472]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:479][473]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:487][474]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:496][475]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:504][476]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:512][477]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:521][478]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:529][479]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:538][480]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:546][481]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:554][482]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:563][483]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:571][484]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:579][485]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:588][486]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:596][487]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:604][488]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:613][489]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:620][490]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:628][491]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:637][492]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:645][493]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:654][494]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:662][495]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:670][496]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:678][497]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:687][498]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:695][499]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:704][500]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:712][501]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:721][502]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:729][503]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:738][504]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:745][505]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:754][506]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:762][507]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:771][508]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:779][509]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:787][510]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:796][511]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:804][512]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:812][513]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:821][514]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:829][515]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:837][516]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:846][517]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:854][518]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:862][519]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:871][520]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:879][521]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:887][522]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:896][523]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:904][524]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:912][525]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:921][526]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:953][527]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:962][528]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:970][529]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:979][530]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:987][531]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.28:995][532]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:003][533]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:011][534]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:020][535]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:028][536]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:036][537]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:045][538]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:053][539]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:062][540]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:070][541]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:078][542]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:087][543]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:095][544]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:103][545]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:112][546]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:120][547]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:128][548]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:137][549]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:145][550]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:153][551]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:162][552]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:170][553]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:178][554]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:186][555]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:195][556]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:203][557]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:211][558]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:219][559]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:228][560]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:236][561]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:244][562]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:253][563]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:261][564]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:269][565]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:278][566]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:286][567]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:294][568]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:303][569]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:312][570]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:320][571]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:328][572]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:337][573]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:345][574]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:354][575]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:362][576]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:370][577]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:378][578]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:387][579]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.52.29:412][580]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.23-20.53.12:063][580]LogStats: FPlatformStackWalk::StackWalkAndDump - 42.650 s
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: === Handled ensure: ===
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: 
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:d:\build\++ue4\sync\engine\source\runtime\core\public\UObject/ScriptDelegates.h] [Line: 556]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: 
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: Stack: 
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc48f00599 UE4Editor-CoreUObject.dll!<lambda_1e25f1f41a60a8996b04cdc2c080bb35>::operator()() [d:\build\++ue4\sync\engine\source\runtime\core\public\uobject\scriptdelegates.h:556]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc48de4bb4 UE4Editor-CoreUObject.dll!FSparseDelegateStorage::Add() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\sparsedelegate.cpp:138]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc8d3a9f71 UE4Editor-MechanicsTest-0058.dll!UnknownFunction [E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\ProjectileArea.cpp:22]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc40e3c7dd UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3384]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc40e644fa UE4Editor-Engine.dll!AActor::PostActorConstruction() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3225]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc40e4a850 UE4Editor-Engine.dll!AActor::FinishSpawning() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3124]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc40e67405 UE4Editor-Engine.dll!AActor::PostSpawnInitialize() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3066]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc4174106f UE4Editor-Engine.dll!UWorld::SpawnActor() [d:\build\++ue4\sync\engine\source\runtime\engine\private\levelactor.cpp:493]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41741547 UE4Editor-Engine.dll!UWorld::SpawnActor() [d:\build\++ue4\sync\engine\source\runtime\engine\private\levelactor.cpp:304]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc8d3a49a0 UE4Editor-MechanicsTest-0058.dll!UnknownFunction [E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\AndrianCharacter.cpp:136]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc42085376 UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\components\inputcomponent.h:252]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc420ae631 UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [d:\build\++ue4\sync\engine\source\runtime\engine\private\userinterface\playerinput.cpp:1321]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41b90043 UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2565]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41ba1e3d UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4553]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41b8dfcb UE4Editor-Engine.dll!APlayerController::PlayerTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2226]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41ba0267 UE4Editor-Engine.dll!APlayerController::TickActor() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4699]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc40e47866 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:168]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41f87223 UE4Editor-Engine.dll!FTickFunctionTask::DoTask() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:285]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41f95256 UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:847]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc47e49ff2 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:686]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc47e4a393 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:583]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc47e5aa68 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1465]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41fb38b0 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:560]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41fb97c2 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1528]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc4173a25f UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:782]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc41745127 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1552]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc3f8dad60 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1683]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc4013e476 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:410]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ff6f8917f62 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4485]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ff6f892c3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ff6f892c4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ff6f893ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ff6f893fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc9e677c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: [Callstack] 0x00007ffc9f7ed4d1 ntdll.dll!UnknownFunction []
+[2021.01.23-20.53.12:063][580]LogOutputDevice: Error: 
+[2021.01.23-20.53.12:066][580]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.23-20.53.20:032][580]LogStats:                    SendNewReport -  7.966 s
+[2021.01.23-20.53.20:032][580]LogStats:             FDebug::EnsureFailed - 50.619 s
+[2021.01.23-20.53.20:032][580]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.20:034][580]LogTemp: Resetting audio stream to device id 
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Name: Altavoces (USB Audio Device)
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Is Default: Yes
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: Channel Order:
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-20.53.20:046][580]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-20.53.20:054][580]LogTemp: Resetting audio stream to device id 
+[2021.01.23-20.53.20:066][580]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Name: Altavoces (USB Audio Device)
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Is Default: Yes
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Sample Rate: 48000
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Channel Count Used: 2
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Device Channel Count: 2
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: Channel Order:
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-20.53.20:067][580]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-20.53.20:130][581]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.20:416][582]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.20:755][583]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.21:092][584]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.21:425][585]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.21:757][586]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.22:096][587]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.22:439][588]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.22:767][589]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.23:103][590]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.23:442][591]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.23:779][592]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.24:115][593]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.24:449][594]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.24:789][595]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.25:118][596]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.25:458][597]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.25:796][598]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.26:130][599]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.26:465][600]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.26:798][601]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.27:228][602]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.27:472][603]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.27:812][604]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:151][605]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:499][606]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:826][607]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:834][608]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:842][609]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:851][610]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:859][611]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:870][612]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:887][613]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:901][614]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:918][615]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:935][616]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:942][617]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:951][618]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:960][619]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:968][620]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:976][621]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:985][622]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.28:994][623]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:002][624]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:011][625]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:019][626]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:027][627]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:035][628]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:044][629]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:052][630]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:060][631]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:070][632]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:077][633]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:085][634]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:093][635]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:102][636]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:110][637]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:119][638]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:127][639]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:136][640]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:144][641]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:152][642]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:160][643]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:168][644]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:177][645]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:185][646]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:194][647]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:202][648]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:210][649]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:218][650]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:227][651]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:235][652]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:244][653]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:252][654]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:260][655]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:268][656]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:277][657]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:285][658]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:294][659]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:302][660]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:310][661]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:319][662]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:327][663]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:335][664]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:343][665]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:351][666]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:359][667]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:368][668]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:376][669]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:384][670]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:393][671]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:401][672]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:410][673]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:418][674]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:426][675]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:434][676]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:443][677]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:451][678]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:460][679]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:468][680]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:476][681]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:484][682]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:493][683]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:501][684]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:510][685]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:518][686]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:526][687]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:535][688]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:544][689]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:551][690]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:560][691]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:569][692]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:578][693]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:585][694]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:594][695]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:602][696]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:610][697]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:618][698]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:626][699]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:634][700]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:643][701]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:651][702]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:660][703]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:668][704]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:676][705]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:685][706]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:693][707]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:701][708]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:710][709]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:719][710]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:727][711]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:735][712]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:743][713]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:752][714]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:760][715]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:768][716]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:777][717]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:785][718]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:794][719]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:801][720]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:809][721]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:818][722]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:826][723]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:834][724]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:843][725]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:851][726]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:860][727]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:868][728]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:877][729]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:885][730]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:893][731]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:902][732]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:910][733]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:918][734]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:927][735]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:935][736]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:943][737]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:952][738]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:960][739]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:968][740]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:977][741]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:985][742]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.29:994][743]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:002][744]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:010][745]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:018][746]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:026][747]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:035][748]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:043][749]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:051][750]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:060][751]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:068][752]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:076][753]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:085][754]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:093][755]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:101][756]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:110][757]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:118][758]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:126][759]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:135][760]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:144][761]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:152][762]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:161][763]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:168][764]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:177][765]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:185][766]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:194][767]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:201][768]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:210][769]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:218][770]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:227][771]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:235][772]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:244][773]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:252][774]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:261][775]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:268][776]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:277][777]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:285][778]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:294][779]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:302][780]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:310][781]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:318][782]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:327][783]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:335][784]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:344][785]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:352][786]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:360][787]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:368][788]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:377][789]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:385][790]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:393][791]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:401][792]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:409][793]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:418][794]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:427][795]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:434][796]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:443][797]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:451][798]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:461][799]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:468][800]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:477][801]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:485][802]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:494][803]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:502][804]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:510][805]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:519][806]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:527][807]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:535][808]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:544][809]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:552][810]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:560][811]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:568][812]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:576][813]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:585][814]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:594][815]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:602][816]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:610][817]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:618][818]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:626][819]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:635][820]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:643][821]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:651][822]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:660][823]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:668][824]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:677][825]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:685][826]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:694][827]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:701][828]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:710][829]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:718][830]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:727][831]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:735][832]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:744][833]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:752][834]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:760][835]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:769][836]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:777][837]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:786][838]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:794][839]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:802][840]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:810][841]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:819][842]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:827][843]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:835][844]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:844][845]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:852][846]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:860][847]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:869][848]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:877][849]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:885][850]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:893][851]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:901][852]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:910][853]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:918][854]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:926][855]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:934][856]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:943][857]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:951][858]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:960][859]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:968][860]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:976][861]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:985][862]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.30:993][863]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:001][864]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:010][865]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:018][866]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:027][867]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:035][868]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:043][869]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:052][870]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:060][871]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:068][872]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:077][873]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:085][874]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:094][875]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:102][876]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:109][877]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:118][878]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:126][879]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:134][880]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:143][881]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:151][882]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:159][883]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:168][884]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: true
+[2021.01.23-20.53.31:177][885]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:184][886]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:193][887]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:201][888]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:210][889]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:218][890]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:227][891]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:235][892]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:243][893]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:251][894]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:260][895]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:268][896]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:276][897]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:285][898]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:293][899]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:302][900]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:310][901]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:318][902]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:327][903]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:335][904]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:344][905]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:352][906]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:360][907]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:368][908]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:377][909]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:385][910]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:393][911]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:402][912]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:411][913]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:418][914]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:427][915]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:435][916]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:443][917]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:451][918]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:460][919]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:468][920]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:477][921]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:485][922]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:494][923]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:502][924]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:510][925]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:518][926]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:527][927]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:535][928]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:544][929]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:552][930]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:560][931]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:569][932]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:577][933]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:585][934]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:594][935]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:602][936]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:611][937]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:619][938]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:627][939]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:635][940]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:643][941]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:651][942]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:659][943]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:668][944]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:676][945]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:684][946]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:693][947]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:701][948]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:710][949]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:718][950]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:726][951]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:735][952]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:743][953]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:751][954]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:760][955]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:768][956]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:777][957]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:785][958]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:793][959]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:802][960]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:810][961]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:818][962]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:827][963]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:835][964]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:844][965]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:851][966]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:860][967]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:869][968]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:877][969]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:885][970]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:894][971]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:902][972]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:910][973]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:919][974]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:927][975]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:935][976]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:944][977]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:952][978]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:960][979]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:969][980]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:977][981]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:985][982]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.31:994][983]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:002][984]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:010][985]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:018][986]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:027][987]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:034][988]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:043][989]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:051][990]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:060][991]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:068][992]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:077][993]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:085][994]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:094][995]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:102][996]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:111][997]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:118][998]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:127][999]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.32:135][  0]LogBlueprintUserMessages: [BP_AndrianCharacter_C_0] BP_Player: false
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: === Critical error: ===
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: 
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: 
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc2d079bcf UE4Editor-MechanicsTest-0054.dll!UnknownFunction [E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\ProjectileArea.cpp:30]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc2d075c4c UE4Editor-MechanicsTest-0054.dll!UnknownFunction [E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\AndrianCharacter.h:16]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48bc42e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48dea62f UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:927]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e0ec61 UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2792]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e10cd2 UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:997]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48ddedbb UE4Editor-CoreUObject.dll!ProcessScriptFunction<void (__cdecl*)(UObject *,FFrame &,void *)>() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:828]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e109ef UE4Editor-CoreUObject.dll!ProcessLocalFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1056]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e10cd2 UE4Editor-CoreUObject.dll!ProcessLocalScriptFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:997]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e10644 UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1081]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48bc42e8 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4907]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc48e10148 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1912]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc40f7601a UE4Editor-Engine.dll!UAnimInstance::TriggerSingleAnimNotify() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:1363]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc40f756e9 UE4Editor-Engine.dll!UAnimInstance::TriggerAnimNotifies() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:1303]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc40f42d28 UE4Editor-Engine.dll!UAnimInstance::DispatchQueuedAnimEvents() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:568]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc412d8f41 UE4Editor-Engine.dll!USkeletalMeshComponent::ConditionallyDispatchQueuedAnimEvents() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:1328]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc412e3236 UE4Editor-Engine.dll!USkeletalMeshComponent::FinalizeBoneTransform() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:3725]
+[2021.01.23-20.53.33:608][  0]LogWindows: Error: [Callstack] 0x00007ffc41b356e8 UE4Editor-Engine.dll!USkeletalMeshComponent::FinalizeAnimationUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\physicsengine\physanim.cpp:419]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc412f27cd UE4Editor-Engine.dll!USkeletalMeshComponent::PostAnimEvaluation() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:2462]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc412d7504 UE4Editor-Engine.dll!USkeletalMeshComponent::CompleteParallelAnimationEvaluation() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:3616]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc412dfdbe UE4Editor-Engine.dll!FParallelAnimationCompletionTask::DoTask() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:151]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc412e1f26 UE4Editor-Engine.dll!TGraphTask<FParallelAnimationCompletionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:847]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc47e49ff2 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:686]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc47e4a393 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:583]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc47e5aa68 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1465]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc41fb38b0 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:560]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc41fb97c2 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1528]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc4173a25f UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:782]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc41745526 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1561]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc3f8dad60 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1683]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc4013e476 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:410]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ff6f8917f62 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4485]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ff6f892c3ec UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:173]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ff6f892c4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ff6f893ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ff6f893fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc9e677c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: [Callstack] 0x00007ffc9f7ed4d1 ntdll.dll!UnknownFunction []
+[2021.01.23-20.53.33:609][  0]LogWindows: Error: 
+[2021.01.23-20.53.33:628][  0]LogExit: Executing StaticShutdownAfterError
+[2021.01.23-20.53.34:123][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.01.23-20.53.34:123][  0]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.01.23-20.53.34:170][  0]Log file closed, 01/23/21 21:53:34

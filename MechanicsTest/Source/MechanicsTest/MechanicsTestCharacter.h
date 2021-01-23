@@ -88,8 +88,13 @@ protected:
 
 	//Component with heal system logic
 	UHealthSystemComponent* PlayerHealthSystem;
+
+	//Stats for default damage
 	float Ability1_Damage = 25.0f;
 	float DefaultAbility1_Damage = 25.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
+	bool bIsEnemy = false;
 
 	virtual float TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 
@@ -104,6 +109,9 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	UHealthSystemComponent* GetHealthComponent() { return PlayerHealthSystem;  }
 
+	//Check if is enemy or not
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool GetIsEnemy() { return bIsEnemy; }
 
 };
 

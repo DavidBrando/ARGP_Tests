@@ -43,3 +43,4 @@ E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\AreaClass.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\AreaClass.generated.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\ProjectileArea.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\ProjectileArea.generated.h
+E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

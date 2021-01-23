@@ -60,4 +60,6 @@ public:
 
 	void SetDamage(float nDamage); //seeting a new damage if we want more powerful shoots
 
+	void MakeProjectileHoming(USceneComponent* target);
+
 };

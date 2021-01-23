@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\ARGP_Tests).
-  Parsing headers for MechanicsTestEditor
-    Running UnrealHeaderTool "E:\GitHub\ARGP_Tests\MechanicsTest\MechanicsTest.uproject" "E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\MechanicsTestEditor\Development\MechanicsTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MechanicsTestEditor in 4,0071096 seconds
   Building MechanicsTestEditor...
   Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] ProjectileArea.gen.cpp
-    [2/6] AndrianCharacter.cpp
-    [3/6] ProjectileArea.cpp
-    [4/6] UE4Editor-MechanicsTest-0054.lib
-       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0054.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0054.exp
-    [5/6] UE4Editor-MechanicsTest-0054.dll
-       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0054.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0054.suppressed.exp
-    [6/6] MechanicsTestEditor.target
-  Total time in Parallel executor: 4,22 seconds
-  Total execution time: 8,77 seconds
+  Building 4 actions with 8 processes...
+    [1/4] AndrianCharacter.cpp
+    [2/4] UE4Editor-MechanicsTest-0003.lib
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.exp
+    [3/4] UE4Editor-MechanicsTest-0003.dll
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.suppressed.exp
+    [4/4] MechanicsTestEditor.target
+  Total time in Parallel executor: 1,58 seconds
+  Total execution time: 2,05 seconds

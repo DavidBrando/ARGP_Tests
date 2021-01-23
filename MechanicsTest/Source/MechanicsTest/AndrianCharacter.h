@@ -71,6 +71,12 @@ protected:
 	float Abality3Coldown = 9.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	bool isCastingAbility4 = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
+	float Abality4Coldown = 12.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
 	bool isCastingAbility5 = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AbilityVariables, meta = (AllowPrivateAccess = "true"))
@@ -136,6 +142,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX, meta = (AllowPrivateAccess = "true"))
 		UMaterial* DefaultMaterial;
 
+	//Objcetive for homing projectiles
+	AMechanicsTestCharacter* Objective;
 
 private:
 
@@ -150,6 +158,10 @@ private:
 	//Function for reset time handle for ability 3, acid orb
 	void ResetTimerForAbility3();
 	FTimerHandle TimerHandleAbility3;
+
+	//Function for reset time handle for ability 4, homing projectiles for fire ball
+	void ResetTimerForAbility4();
+	FTimerHandle TimerHandleAbility4;
 
 	//Function for reset time handle for ability 5, tp ability
 	void ResetTimerForAbility5();

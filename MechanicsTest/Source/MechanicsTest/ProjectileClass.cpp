@@ -4,7 +4,6 @@
 #include "ProjectileClass.h"
 #include "Components/SphereComponent.h"
 #include "Components/CapsuleComponent.h"
-
 #include "Components/SceneComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -84,5 +83,16 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 void AProjectileClass::SetDamage(float nDamage)
 {
 	damage = nDamage;
+}
+
+void AProjectileClass::MakeProjectileHoming(USceneComponent* target)
+{
+	projectileMovement->Velocity = FVector(0.0f);
+	projectileMovement->bIsHomingProjectile = true;
+	projectileMovement->InitialSpeed = 1500.0f;
+	projectileMovement->MaxSpeed = 1500.0f;
+	projectileMovement->HomingAccelerationMagnitude = 750.0f;
+	projectileMovement->HomingTargetComponent = target;
+
 }
 
