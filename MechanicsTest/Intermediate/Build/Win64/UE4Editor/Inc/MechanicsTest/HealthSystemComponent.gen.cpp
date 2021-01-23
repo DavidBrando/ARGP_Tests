@@ -59,7 +59,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Get current alive status\n" },
 		{ "ModuleRelativePath", "HealthSystemComponent.h" },
+		{ "ToolTip", "Get current alive status" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystemComponent, nullptr, "GetAlive", nullptr, nullptr, sizeof(HealthSystemComponent_eventGetAlive_Parms), Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetAlive_Statics::Function_MetaDataParams)) };
@@ -91,7 +93,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Return factorized current healh\n" },
 		{ "ModuleRelativePath", "HealthSystemComponent.h" },
+		{ "ToolTip", "Return factorized current healh" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystemComponent, nullptr, "GetFactorizedHealth", nullptr, nullptr, sizeof(HealthSystemComponent_eventGetFactorizedHealth_Parms), Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth_Statics::Function_MetaDataParams)) };
@@ -123,7 +127,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Return current health\n" },
 		{ "ModuleRelativePath", "HealthSystemComponent.h" },
+		{ "ToolTip", "Return current health" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystemComponent, nullptr, "GetHealth", nullptr, nullptr, sizeof(HealthSystemComponent_eventGetHealth_Parms), Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_GetHealth_Statics::Function_MetaDataParams)) };
@@ -155,7 +161,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Heal the character with a value\n" },
 		{ "ModuleRelativePath", "HealthSystemComponent.h" },
+		{ "ToolTip", "Heal the character with a value" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystemComponent, nullptr, "Heal", nullptr, nullptr, sizeof(HealthSystemComponent_eventHeal_Parms), Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_Heal_Statics::Function_MetaDataParams)) };
@@ -187,7 +195,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Apply damage to the character and controlls alive status\n" },
 		{ "ModuleRelativePath", "HealthSystemComponent.h" },
+		{ "ToolTip", "Apply damage to the character and controlls alive status" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystemComponent, nullptr, "TakeDamage", nullptr, nullptr, sizeof(HealthSystemComponent_eventTakeDamage_Parms), Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystemComponent_TakeDamage_Statics::Function_MetaDataParams)) };
@@ -233,11 +243,11 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MechanicsTest,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UHealthSystemComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UHealthSystemComponent_GetAlive, "GetAlive" }, // 1160395873
-		{ &Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth, "GetFactorizedHealth" }, // 3357954721
-		{ &Z_Construct_UFunction_UHealthSystemComponent_GetHealth, "GetHealth" }, // 4146817647
-		{ &Z_Construct_UFunction_UHealthSystemComponent_Heal, "Heal" }, // 4249114954
-		{ &Z_Construct_UFunction_UHealthSystemComponent_TakeDamage, "TakeDamage" }, // 613012547
+		{ &Z_Construct_UFunction_UHealthSystemComponent_GetAlive, "GetAlive" }, // 3430515043
+		{ &Z_Construct_UFunction_UHealthSystemComponent_GetFactorizedHealth, "GetFactorizedHealth" }, // 2158873474
+		{ &Z_Construct_UFunction_UHealthSystemComponent_GetHealth, "GetHealth" }, // 2447511869
+		{ &Z_Construct_UFunction_UHealthSystemComponent_Heal, "Heal" }, // 34591193
+		{ &Z_Construct_UFunction_UHealthSystemComponent_TakeDamage, "TakeDamage" }, // 532991737
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthSystemComponent_Statics::Class_MetaDataParams[] = {
@@ -304,7 +314,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystemComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthSystemComponent, 3089663705);
+	IMPLEMENT_CLASS(UHealthSystemComponent, 1904691317);
 	template<> MECHANICSTEST_API UClass* StaticClass<UHealthSystemComponent>()
 	{
 		return UHealthSystemComponent::StaticClass();

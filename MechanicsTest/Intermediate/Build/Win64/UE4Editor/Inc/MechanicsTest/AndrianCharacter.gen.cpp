@@ -109,6 +109,11 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VFX_Buff;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_tickDamage_MetaData[];
+#endif
+		static void NewProp_tickDamage_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_tickDamage;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimMontageOrb_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimMontageOrb;
@@ -237,6 +242,20 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff = { "VFX_Buff", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAndrianCharacter, VFX_Buff), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "InfoCharacter" },
+		{ "Comment", "//Will change for each spawn of the ability\n" },
+		{ "ModuleRelativePath", "AndrianCharacter.h" },
+		{ "ToolTip", "Will change for each spawn of the ability" },
+	};
+#endif
+	void Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage_SetBit(void* Obj)
+	{
+		((AAndrianCharacter*)Obj)->tickDamage = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage = { "tickDamage", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AAndrianCharacter), &Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage_SetBit, METADATA_PARAMS(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AnimMontageOrb_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -404,6 +423,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_invisibleMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AreaBuff,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_VFX_Buff,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_tickDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AnimMontageOrb,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_AnimMontageFireBall,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAndrianCharacter_Statics::NewProp_SpawnArea,
@@ -448,7 +468,7 @@ void EmptyLinkFunctionForGeneratedCodeAndrianCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAndrianCharacter, 1533873629);
+	IMPLEMENT_CLASS(AAndrianCharacter, 1723599511);
 	template<> MECHANICSTEST_API UClass* StaticClass<AAndrianCharacter>()
 	{
 		return AAndrianCharacter::StaticClass();

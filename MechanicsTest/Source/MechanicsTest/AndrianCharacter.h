@@ -117,6 +117,7 @@ protected:
 		UAnimMontage* AnimMontageOrb;
 
 	//Will change for each spawn of the ability
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InfoCharacter, meta = (AllowPrivateAccess = "true"))
 	bool tickDamage = false;
 
 	//VFX

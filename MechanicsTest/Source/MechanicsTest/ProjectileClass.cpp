@@ -66,7 +66,7 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, SweepResult.Location.ToString());
 
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, OtherActor->GetName());
+		//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, OtherActor->GetName());
 
 
 		//Sending damage using TakeDamage event
@@ -80,7 +80,7 @@ void AProjectileClass::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 	}
 }
 
-
+//Assign a new damage, usually used by buff operations
 void AProjectileClass::SetDamage(float nDamage)
 {
 	damage = nDamage;

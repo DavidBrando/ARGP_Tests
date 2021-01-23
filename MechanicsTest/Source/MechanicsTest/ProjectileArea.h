@@ -26,11 +26,11 @@ protected:
 	TSubclassOf<class AAreaClass> AreaSpawn;
 
 	//Bool for applying tick damage or not
-	bool isApplyTickDamage = false;
+	bool isApplyTickDamage;
 
 public:
 
-	void LaunchOrb();
+	void LaunchOrb(FVector CamForwardVector);
 
 	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

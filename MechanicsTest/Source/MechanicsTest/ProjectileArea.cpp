@@ -20,15 +20,16 @@ void AProjectileArea::BeginPlay()
 {
 	Super::BeginPlay();
 	capsule->OnComponentBeginOverlap.AddDynamic(this, &AProjectileArea::OnOverlapBegin);
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, this->GetOwner()->GetName());
+	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, this->GetOwner()->GetName());
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isApplyTickDamage ? TEXT("true") : TEXT("false"));
 
 }
 
-void AProjectileArea::LaunchOrb()
+void AProjectileArea::LaunchOrb(FVector CamForwardVector)
 {
 	capsule->SetCollisionProfileName(TEXT("BulletType"));
-	projectileMovement->Velocity = GetActorForwardVector() * 2000.0f;
-	projectileMovement->ProjectileGravityScale = 1.0f;
+	projectileMovement->Velocity = CamForwardVector * 5000.0f;
+	projectileMovement->ProjectileGravityScale = 0.5f;
 
 }
 
@@ -40,7 +41,7 @@ void AProjectileArea::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), explosion, OtherActor->GetActorLocation(), FRotator(0.0f));
 		}
 
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, OtherActor->GetName());
+		//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, OtherActor->GetName());
 
 			//Sending damage using TakeDamage event
 		TSubclassOf<UDamageType> const ValidDamageTypeClass;

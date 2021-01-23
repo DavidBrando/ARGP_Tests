@@ -111,6 +111,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAndrianCharacter); \
 	FORCEINLINE static uint32 __PPO__SpawnArea() { return STRUCT_OFFSET(AAndrianCharacter, SpawnArea); } \
 	FORCEINLINE static uint32 __PPO__AnimMontageFireBall() { return STRUCT_OFFSET(AAndrianCharacter, AnimMontageFireBall); } \
 	FORCEINLINE static uint32 __PPO__AnimMontageOrb() { return STRUCT_OFFSET(AAndrianCharacter, AnimMontageOrb); } \
+	FORCEINLINE static uint32 __PPO__tickDamage() { return STRUCT_OFFSET(AAndrianCharacter, tickDamage); } \
 	FORCEINLINE static uint32 __PPO__VFX_Buff() { return STRUCT_OFFSET(AAndrianCharacter, VFX_Buff); } \
 	FORCEINLINE static uint32 __PPO__AreaBuff() { return STRUCT_OFFSET(AAndrianCharacter, AreaBuff); } \
 	FORCEINLINE static uint32 __PPO__invisibleMaterial() { return STRUCT_OFFSET(AAndrianCharacter, invisibleMaterial); } \

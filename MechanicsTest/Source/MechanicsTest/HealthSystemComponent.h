@@ -33,19 +33,23 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-
+	//Return current health
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		float GetHealth() { return health; }
-
+	
+	//Return factorized current healh
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		float GetFactorizedHealth() { return health / maxHealth; };
 
+	//Apply damage to the character and controlls alive status
 	UFUNCTION(BlueprintCallable)
 		void TakeDamage(float dmg);
 
+	//Heal the character with a value
 	UFUNCTION(BlueprintCallable)
 		void Heal(float nHeal);
 
+	//Get current alive status
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 		bool GetAlive() { return alive; }
 

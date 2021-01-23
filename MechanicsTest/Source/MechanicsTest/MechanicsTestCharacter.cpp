@@ -106,6 +106,13 @@ void AMechanicsTestCharacter::BuffControl(int buffType, float factorizedBuff)
 	//do nothing
 }
 
+float AMechanicsTestCharacter::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float ActualDamage = Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+
+	return ActualDamage;
+}
+
 
 
 void AMechanicsTestCharacter::TurnAtRate(float Rate)

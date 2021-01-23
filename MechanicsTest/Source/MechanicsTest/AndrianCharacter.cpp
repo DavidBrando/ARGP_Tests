@@ -125,6 +125,8 @@ void AAndrianCharacter::SpecialAbility3()
 			SpawnParams.Owner = this;
 
 			AreaProjectile = GetWorld()->SpawnActor<AProjectileArea>(orbType, SpawnProjectile->GetComponentLocation(), FRotator(0.0f), SpawnParams);
+			AreaProjectile->SetTickDamage(tickDamage);
+
 
 			if (AnimMontageOrb) {
 				Abality3Coldown = PlayAnimMontage(AnimMontageOrb);
@@ -157,8 +159,7 @@ void AAndrianCharacter::LaunchOrb()
 	//Detach orb projectile
 	FDetachmentTransformRules rules(EDetachmentRule::KeepWorld, false);
 	AreaProjectile->DetachFromActor(rules);
-	AreaProjectile->LaunchOrb();
-	AreaProjectile->SetTickDamage(tickDamage);
+	AreaProjectile->LaunchOrb(FollowCamera->GetForwardVector());
 }
 
 

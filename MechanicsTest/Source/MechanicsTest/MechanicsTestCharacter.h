@@ -91,6 +91,8 @@ protected:
 	float Ability1_Damage = 25.0f;
 	float DefaultAbility1_Damage = 25.0f;
 
+	virtual float TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
+
 
 public:
 	/** Returns CameraBoom subobject **/
@@ -102,11 +104,6 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	UHealthSystemComponent* GetHealthComponent() { return PlayerHealthSystem;  }
 
-private:
-
-	FTimerHandle test;
-
-	void ResetTimer();
 
 };
 
