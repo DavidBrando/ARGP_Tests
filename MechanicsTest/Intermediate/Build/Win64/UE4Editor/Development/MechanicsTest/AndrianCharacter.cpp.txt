@@ -44,3 +44,5 @@ E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\Mechan
 E:\GitHub\ARGP_Tests\MechanicsTest\Source\MechanicsTest\ProjectileArea.h
 E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Inc\MechanicsTest\ProjectileArea.generated.h
 E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+E:\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ArrowComponent.h
+E:\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ArrowComponent.generated.h

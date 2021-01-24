@@ -28,8 +28,8 @@ AProjectileClass::AProjectileClass()
 
 	//Prepering to lunch the magic!!
 	projectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
-	projectileMovement->InitialSpeed = 750.0f;
-	projectileMovement->MaxSpeed = 750.0f;
+	projectileMovement->InitialSpeed = 1500.0f;
+	projectileMovement->MaxSpeed = 1500.0f;
 	projectileMovement->ProjectileGravityScale = 0.0f;
 
 	//Cool VFX effects
@@ -85,6 +85,7 @@ void AProjectileClass::SetDamage(float nDamage)
 	damage = nDamage;
 }
 
+//Preparing projectile for homing an objective
 void AProjectileClass::MakeProjectileHoming(USceneComponent* target)
 {
 	projectileMovement->Velocity = FVector(0.0f);

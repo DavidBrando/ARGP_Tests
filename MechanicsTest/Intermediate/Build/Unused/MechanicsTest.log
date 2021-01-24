@@ -1,12 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\ARGP_Tests).
   Building MechanicsTestEditor...
   Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] AndrianCharacter.cpp
-    [2/4] UE4Editor-MechanicsTest-0003.lib
-       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.exp
-    [3/4] UE4Editor-MechanicsTest-0003.dll
-       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0003.suppressed.exp
-    [4/4] MechanicsTestEditor.target
-  Total time in Parallel executor: 1,58 seconds
-  Total execution time: 2,05 seconds
+  Building 5 actions with 8 processes...
+    [1/5] ProjectileClass.cpp
+    [2/5] ProjectileArea.cpp
+    [3/5] UE4Editor-MechanicsTest-0012.lib
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0012.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0012.exp
+    [4/5] UE4Editor-MechanicsTest-0012.dll
+       Creando biblioteca E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0012.suppressed.lib y objeto E:\GitHub\ARGP_Tests\MechanicsTest\Intermediate\Build\Win64\UE4Editor\Development\MechanicsTest\UE4Editor-MechanicsTest-0012.suppressed.exp
+    [5/5] MechanicsTestEditor.target
+  Total time in Parallel executor: 5,65 seconds
+  Total execution time: 6,11 seconds

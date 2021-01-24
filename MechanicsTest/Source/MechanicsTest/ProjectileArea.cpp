@@ -21,7 +21,7 @@ void AProjectileArea::BeginPlay()
 	Super::BeginPlay();
 	capsule->OnComponentBeginOverlap.AddDynamic(this, &AProjectileArea::OnOverlapBegin);
 	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, this->GetOwner()->GetName());
-	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isApplyTickDamage ? TEXT("true") : TEXT("false"));
+	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isApplyTickDamage ? TEXT("true") : TEXT("false"));
 
 }
 

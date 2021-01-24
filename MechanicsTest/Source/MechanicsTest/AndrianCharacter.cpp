@@ -15,7 +15,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "ProjectileArea.h"
 #include "DrawDebugHelpers.h"
-
+#include "Components/ArrowComponent.h"
 
 AAndrianCharacter::AAndrianCharacter() {
 
@@ -69,8 +69,7 @@ void AAndrianCharacter::SpecialAbility1()
 		//Changing movement controller for setup with evoking a fireball
 		ChangeMoviementCharacter(true, false);
 
-		//Reset ability coldown
-		GetWorldTimerManager().SetTimer(TimerHandleAbility1, this, &AAndrianCharacter::ResetTimerForAbility1, Abality1Coldown, false);
+
 
 
 
@@ -86,12 +85,15 @@ void AAndrianCharacter::SpecialAbility1()
 
 			//applying homing projectiles if ability 4 is on use
 			if (isCastingAbility4 == true) {
-
-				projectile->MakeProjectileHoming(Objective->GetMesh());
+				
+				//First was on mesh, but seems the mesh was going to floor position, so I use arrow component to be the target.
+				projectile->MakeProjectileHoming(Objective->GetArrowComponent());
 			}
 			
 		}
 
+		//Reset ability coldown
+		GetWorldTimerManager().SetTimer(TimerHandleAbility1, this, &AAndrianCharacter::ResetTimerForAbility1, Abality1Coldown, false);
 		
 	}
 
@@ -105,8 +107,7 @@ void AAndrianCharacter::SpecialAbility2()
 
 		isCastingAbility2 = true;
 
-		//Reset ability coldown
-		GetWorldTimerManager().SetTimer(TimerHandleAbility2, this, &AAndrianCharacter::ResetTimerForAbility2, Abality2Coldown, false);
+
 
 		if (AreaBuff) {
 
@@ -117,6 +118,8 @@ void AAndrianCharacter::SpecialAbility2()
 			GetWorld()->SpawnActor<AAreaClass>(AreaBuff, SpawnArea->GetComponentLocation(), FRotator(0.0f), SpawnParams);
 		}
 
+		//Reset ability coldown
+		GetWorldTimerManager().SetTimer(TimerHandleAbility2, this, &AAndrianCharacter::ResetTimerForAbility2, Abality2Coldown, false);
 	}
 }
 
@@ -192,7 +195,7 @@ void AAndrianCharacter::SpecialAbility4()
 
 		DrawDebugLine(GetWorld(), start, end, FColor::Green, 1.0f);
 
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isHitting ? TEXT("true") : TEXT("false"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, isHitting ? TEXT("true") : TEXT("false"));
 
 		//if we hit something, checking if it is a enemy
 		if (isHitting == true) {
